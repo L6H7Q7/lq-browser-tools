@@ -1,0 +1,642 @@
+{
+   "Buy": {
+      "message": "Berlangganan"
+   },
+   "Help": {
+      "message": "Bantuan"
+   },
+   "accountTitle": {
+      "message": "Akun"
+   },
+   "addLanguage": {
+      "description": "Placeholder for the blacklist language picker (a compact dropdown used to add languages)",
+      "message": "Tambahkan bahasa"
+   },
+   "addRule": {
+      "message": "+ Tambah Aturan"
+   },
+   "autoTranslateIncomingMessages": {
+      "message": "Terjemahkan Otomatis Pesan Masuk"
+   },
+   "autoTranslateOutgoingMessages": {
+      "message": "Terjemahkan Otomatis Pesan Keluar"
+   },
+   "bilingualDisplay": {
+      "message": "Tampilan Dua Bahasa"
+   },
+   "bilingualDisplayDescription": {
+      "message": "Jika dibuka, konten dwibahasa akan ditampilkan (terjemahan ditampilkan berdampingan dengan teks asli)."
+   },
+   "changeShortcuts": {
+      "message": "Ubah Pintasan"
+   },
+   "clearCacheDescription": {
+      "message": "Semua konten terjemahan akan dihapus."
+   },
+   "clearCacheTitle": {
+      "message": "Manajemen Cache"
+   },
+   "colorReset": {
+      "message": "Atur Ulang"
+   },
+   "colorResetDescription": {
+      "message": "(Memerlukan muat ulang halaman untuk diterapkan.)"
+   },
+   "contactLanguage": {
+      "message": "Bahasa Kontak"
+   },
+   "contactLanguageDescription": {
+      "message": "Bahasa yang digunakan untuk menerjemahkan pesan yang Anda kirim, biasanya bahasa pihak lain."
+   },
+   "contactSupport": {
+      "message": "Jika Anda mengalami masalah saat menggunakan layanan kami, Anda dapat\n            menghubungi kami langsung melalui email"
+   },
+   "customTranslatorColor": {
+      "message": "Warna Penerjemah Kustom"
+   },
+   "discordTranslatorProDescription": {
+      "message": "Terjemahkan pesan langsung di Discord"
+   },
+   "discordTranslatorProTitle": {
+      "message": "Discord Translator Pro"
+   },
+   "expiryDate": {
+      "message": "Tanggal Kedaluwarsa"
+   },
+   "extensionDescription": {
+      "description": "Extension description",
+      "message": "Break language barriers with automatic translation of YouTube comments and live chats."
+   },
+   "extensionName": {
+      "description": "Extension name",
+      "message": "YouTube™ Global Comment Translator"
+   },
+   "extensionNameInExt": {
+      "description": "Extension name",
+      "message": " YouTube™ Comment Translator Pro"
+   },
+   "firstLoginFreeTrial": {
+      "message": "Saat pertama kali masuk, Anda akan langsung mendapatkan uji coba gratis 1 hari"
+   },
+   "followBrowser": {
+      "description": "Option meaning the extension UI should follow the browser language",
+      "message": "Otomatis"
+   },
+   "getFreeTrial": {
+      "message": "Dapatkan Uji Coba Gratis 2 Hari!"
+   },
+   "getFreeTrialWithReview": {
+      "message": "Dengan memberikan ulasan bintang 5, Anda bisa mendapatkan Uji Coba Gratis 2 Hari."
+   },
+   "getMoreFreeTrials": {
+      "message": "Dapatkan Lebih Banyak Uji Coba Gratis"
+   },
+   "giveUsFiveStarReview": {
+      "message": "Beri Kami Ulasan Bintang 5"
+   },
+   "glossaryDescription": {
+      "message": "Jika diaktifkan, fungsi ini akan mengambil dan mengganti kata kunci dalam kalimat berdasarkan tabel."
+   },
+   "glossaryTitle": {
+      "message": "Glosarium"
+   },
+   "igTranslator": {
+      "message": "IG Translator"
+   },
+   "interfaceLanguage": {
+      "description": "Label for the UI language selector",
+      "message": "Bahasa Antarmuka"
+   },
+   "interfaceLanguageDescription": {
+      "description": "Help text for the UI language selector",
+      "message": "Bahasa yang digunakan untuk antarmuka ekstensi ini (popup dan pengaturan). Pilih \"Otomatis\" untuk menyesuaikan dengan bahasa browser Anda."
+   },
+   "lang_af": {
+      "message": "Afrikaans"
+   },
+   "lang_am": {
+      "message": "Amharik (አማርኛ)"
+   },
+   "lang_ar": {
+      "message": "Arab (العربية)"
+   },
+   "lang_auto": {
+      "message": "Otomatis"
+   },
+   "lang_az": {
+      "message": "Azerbaijan (Azərbaycanca)"
+   },
+   "lang_be": {
+      "message": "Belarusia (Беларуская)"
+   },
+   "lang_bg": {
+      "message": "Bulgaria (Български)"
+   },
+   "lang_bn": {
+      "message": "Bengali (বাংলা)"
+   },
+   "lang_bs": {
+      "message": "Bosnia (Bosanski)"
+   },
+   "lang_ca": {
+      "message": "Katalan (Català)"
+   },
+   "lang_ceb": {
+      "message": "Cebuano (Binisaya)"
+   },
+   "lang_co": {
+      "message": "Korsika (Corsu)"
+   },
+   "lang_cs": {
+      "message": "Ceko (Čeština)"
+   },
+   "lang_cy": {
+      "message": "Welsh (Cymraeg)"
+   },
+   "lang_da": {
+      "message": "Denmark (Dansk)"
+   },
+   "lang_de": {
+      "message": "Jerman (Deutsch)"
+   },
+   "lang_el": {
+      "message": "Yunani (Ελληνικά)"
+   },
+   "lang_en": {
+      "message": "Inggris (English)"
+   },
+   "lang_eo": {
+      "message": "Esperanto"
+   },
+   "lang_es": {
+      "message": "Spanyol (Español)"
+   },
+   "lang_et": {
+      "message": "Estonia (Eesti)"
+   },
+   "lang_eu": {
+      "message": "Basque (Euskara)"
+   },
+   "lang_fa": {
+      "message": "Persia (فارسی)"
+   },
+   "lang_fi": {
+      "message": "Finlandia (Suomi)"
+   },
+   "lang_fr": {
+      "message": "Prancis (Français)"
+   },
+   "lang_fy": {
+      "message": "Frisian (Frysk)"
+   },
+   "lang_ga": {
+      "message": "Irlandia (Gaeilge)"
+   },
+   "lang_gd": {
+      "message": "Gaelik Skotlandia (Gàidhlig)"
+   },
+   "lang_gl": {
+      "message": "Galisia (Galego)"
+   },
+   "lang_gu": {
+      "message": "Gujarati (ગુજરાતી)"
+   },
+   "lang_ha": {
+      "message": "Hausa"
+   },
+   "lang_haw": {
+      "message": "Hawaii (ʻŌlelo Hawaiʻi)"
+   },
+   "lang_hi": {
+      "message": "Hindi (हिन्दी)"
+   },
+   "lang_hmn": {
+      "message": "Hmong (Hmoob)"
+   },
+   "lang_hr": {
+      "message": "Kroasia (Hrvatski)"
+   },
+   "lang_ht": {
+      "message": "Kreol Haiti (Kreyòl Ayisyen)"
+   },
+   "lang_hu": {
+      "message": "Hungaria (Magyar)"
+   },
+   "lang_hy": {
+      "message": "Armenia (Հայերեն)"
+   },
+   "lang_id": {
+      "message": "Indonesia"
+   },
+   "lang_ig": {
+      "message": "Igbo"
+   },
+   "lang_is": {
+      "message": "Islandia (Íslenska)"
+   },
+   "lang_it": {
+      "message": "Italia (Italiano)"
+   },
+   "lang_iw": {
+      "message": "Ibrani (עברית)"
+   },
+   "lang_ja": {
+      "message": "Jepang (日本語)"
+   },
+   "lang_jw": {
+      "message": "Jawa (Basa Jawa)"
+   },
+   "lang_ka": {
+      "message": "Georgia (ქართული)"
+   },
+   "lang_kk": {
+      "message": "Kazakh (Қазақша)"
+   },
+   "lang_km": {
+      "message": "Khmer (ខ្មែរ)"
+   },
+   "lang_kn": {
+      "message": "Kannada (ಕನ್ನಡ)"
+   },
+   "lang_ko": {
+      "message": "Korea (한국어)"
+   },
+   "lang_ku": {
+      "message": "Kurdi (Kurmanji) (Kurdî)"
+   },
+   "lang_ky": {
+      "message": "Kirgiz (Кыргызча)"
+   },
+   "lang_la": {
+      "message": "Latin (Latina)"
+   },
+   "lang_lb": {
+      "message": "Luksemburg (Lëtzebuergesch)"
+   },
+   "lang_lo": {
+      "message": "Laos (ລາວ)"
+   },
+   "lang_lt": {
+      "message": "Lituania (Lietuvių)"
+   },
+   "lang_lv": {
+      "message": "Latvia (Latviešu)"
+   },
+   "lang_ma": {
+      "message": "Punjabi (ਪੰਜਾਬੀ)"
+   },
+   "lang_mg": {
+      "message": "Malagasi"
+   },
+   "lang_mi": {
+      "message": "Maori (Māori)"
+   },
+   "lang_mk": {
+      "message": "Makedonia (Македонски)"
+   },
+   "lang_ml": {
+      "message": "Malayalam (മലയാളം)"
+   },
+   "lang_mn": {
+      "message": "Mongolia (Монгол)"
+   },
+   "lang_mr": {
+      "message": "Marathi (मराठी)"
+   },
+   "lang_ms": {
+      "message": "Melayu (Bahasa Melayu)"
+   },
+   "lang_mt": {
+      "message": "Malta (Malti)"
+   },
+   "lang_my": {
+      "message": "Myanmar (Burma) (မြန်မာစာ)"
+   },
+   "lang_ne": {
+      "message": "Nepali (नेपाली)"
+   },
+   "lang_nl": {
+      "message": "Belanda (Nederlands)"
+   },
+   "lang_no": {
+      "message": "Norwegia (Norsk)"
+   },
+   "lang_ny": {
+      "message": "Chichewa"
+   },
+   "lang_pl": {
+      "message": "Polandia (Polski)"
+   },
+   "lang_ps": {
+      "message": "Pashto (پښتو)"
+   },
+   "lang_pt": {
+      "message": "Portugis (Português)"
+   },
+   "lang_ro": {
+      "message": "Rumania (Română)"
+   },
+   "lang_ru": {
+      "message": "Rusia (Русский)"
+   },
+   "lang_sd": {
+      "message": "Sindhi (سنڌي)"
+   },
+   "lang_si": {
+      "message": "Sinhala (සිංහල)"
+   },
+   "lang_sk": {
+      "message": "Slovak (Slovenčina)"
+   },
+   "lang_sl": {
+      "message": "Slovenia (Slovenščina)"
+   },
+   "lang_sm": {
+      "message": "Samoa (Gagana Sāmoa)"
+   },
+   "lang_sn": {
+      "message": "Shona (ChiShona)"
+   },
+   "lang_so": {
+      "message": "Somalia (Soomaali)"
+   },
+   "lang_sq": {
+      "message": "Albania (Shqip)"
+   },
+   "lang_sr": {
+      "message": "Serbia (Српски)"
+   },
+   "lang_st": {
+      "message": "Sesotho"
+   },
+   "lang_su": {
+      "message": "Sunda (Basa Sunda)"
+   },
+   "lang_sv": {
+      "message": "Swedia (Svenska)"
+   },
+   "lang_sw": {
+      "message": "Swahili (Kiswahili)"
+   },
+   "lang_ta": {
+      "message": "Tamil (தமிழ்)"
+   },
+   "lang_te": {
+      "message": "Telugu (తెలుగు)"
+   },
+   "lang_tg": {
+      "message": "Tajik (Тоҷикӣ)"
+   },
+   "lang_th": {
+      "message": "Thai (ไทย)"
+   },
+   "lang_tl": {
+      "message": "Filipino"
+   },
+   "lang_tr": {
+      "message": "Turki (Türkçe)"
+   },
+   "lang_uk": {
+      "message": "Ukraina (Українська)"
+   },
+   "lang_ur": {
+      "message": "Urdu (اردو)"
+   },
+   "lang_uz": {
+      "message": "Uzbek (Oʻzbekcha)"
+   },
+   "lang_vi": {
+      "message": "Vietnam (Tiếng Việt)"
+   },
+   "lang_xh": {
+      "message": "Xhosa (isiXhosa)"
+   },
+   "lang_yi": {
+      "message": "Yiddish (ייִדיש)"
+   },
+   "lang_yo": {
+      "message": "Yoruba (Yorùbá)"
+   },
+   "lang_zh_cn": {
+      "message": "Tionghoa (Aksara Sederhana) (简体中文)"
+   },
+   "lang_zh_tw": {
+      "message": "Tionghoa (Aksara Tradisional) (繁體中文)"
+   },
+   "lang_zu": {
+      "message": "Zulu (isiZulu)"
+   },
+   "languageBlacklist": {
+      "description": "Label for the source-language blacklist selector",
+      "message": "Daftar Hitam Terjemahan"
+   },
+   "languageBlacklistDescription": {
+      "description": "Help text for the source-language blacklist selector",
+      "message": "Pesan masuk yang bahasa sumbernya terdeteksi sebagai salah satu bahasa yang dipilih tidak akan diterjemahkan dan akan ditampilkan apa adanya."
+   },
+   "logout": {
+      "message": "Keluar"
+   },
+   "manageSubscriptions": {
+      "message": "Kelola langganan"
+   },
+   "messagesPerDay": {
+      "message": "30 pesan/hari"
+   },
+   "messengerTranslatorDescription": {
+      "message": "Komunikasikan dengan mudah dalam berbagai bahasa di Messenger"
+   },
+   "messengerTranslatorTitle": {
+      "message": "Messenger Translator Pro"
+   },
+   "modalUpgradeTitle": {
+      "message": "Tingkatkan"
+   },
+   "moneyBackGuarantee": {
+      "message": "GARANSI UANG KEMBALI 7 HARI"
+   },
+   "moreSettings": {
+      "message": "Pengaturan Lainnya"
+   },
+   "moreTools": {
+      "message": "Alat Lainnya"
+   },
+   "multipleTranslationEngines": {
+      "message": "Beberapa Mesin Terjemahan"
+   },
+   "navGroupAdvanced": {
+      "description": "Options page sidebar nav item / card title for advanced settings (glossary, cache)",
+      "message": "Lanjutan"
+   },
+   "navGroupAppearance": {
+      "description": "Options page sidebar nav item / card title for translation engine and appearance settings",
+      "message": "Mesin & Tampilan"
+   },
+   "navGroupInputTranslation": {
+      "description": "Options page sidebar nav item / card title for settings about translating your own input before sending",
+      "message": "Terjemahan Input"
+   },
+   "navGroupLanguages": {
+      "description": "Options page sidebar nav item / card title for the language-selection settings group",
+      "message": "Bahasa"
+   },
+   "navGroupMessageTranslation": {
+      "description": "Options page sidebar nav item / card title for settings about translating received messages",
+      "message": "Terjemahan Pesan"
+   },
+   "plan": {
+      "message": "Paket:"
+   },
+   "refresh": {
+      "message": "Segarkan"
+   },
+   "resetShortcuts": {
+      "message": "Atur Ulang"
+   },
+   "retryTranslation": {
+      "message": "Coba lagi"
+   },
+   "sendImmediately": {
+      "message": "Kirim Langsung"
+   },
+   "sendImmediatelyDescription": {
+      "message": "Jika diaktifkan, menekan pintasan akan menerjemahkan pesan Anda dan mengirimnya seketika."
+   },
+   "sendImmediatelyDisabledHint": {
+      "message": "Aktifkan Pratinjau Terjemahan untuk menggunakan opsi ini."
+   },
+   "settingsTitle": {
+      "message": "Pengaturan"
+   },
+   "share": {
+      "description": "Label / tooltip for the share button that opens the share menu",
+      "message": "Bagikan"
+   },
+   "shareCopied": {
+      "description": "Confirmation shown on the share menu after the text and link are copied",
+      "message": "Disalin!"
+   },
+   "shareCopyLink": {
+      "description": "Share menu item that copies the promo text and the extension store link to the clipboard",
+      "message": "Salin Teks & Tautan"
+   },
+   "shareMessage": {
+      "description": "Promotional sentence used as the share text when sharing the extension via the share button (copied to clipboard and pre-filled into social share dialogs). The store link is appended automatically.",
+      "message": "Lihat penerjemah komentar YouTube ini — secara otomatis menerjemahkan komentar dalam 100+ bahasa!"
+   },
+   "shareViaEmail": {
+      "description": "Share menu item that opens the user's email client to share the extension",
+      "message": "Email"
+   },
+   "shortcutsDescription": {
+      "message": "Terjemahkan dan ganti pesan Anda saat mengetik dengan cepat."
+   },
+   "shortcutsOneClickTranslation": {
+      "message": "Pintasan untuk Terjemahan dan Pengiriman Satu Klik"
+   },
+   "shortcutsTitle": {
+      "message": "Pintasan"
+   },
+   "signInWithGoogle": {
+      "message": "Masuk dengan Google"
+   },
+   "skypeTranslatorDescription": {
+      "message": "Terjemahkan pesan Skype Anda dengan mulus secara real-time"
+   },
+   "skypeTranslatorTitle": {
+      "message": "Skype Translator Pro"
+   },
+   "slackTranslatorDescription": {
+      "message": "Terjemahkan pesan Slack dengan mulus"
+   },
+   "slackTranslatorTitle": {
+      "message": "Slack Translator Pro"
+   },
+   "snapchatTranslatorDescription": {
+      "message": "Terjemahkan secara otomatis pesan grup dan obrolan Anda di Snapchat"
+   },
+   "snapchatTranslatorTitle": {
+      "message": "Snapchat Translator Pro"
+   },
+   "supportOver100Languages": {
+      "message": "Mendukung Lebih dari 100+ Bahasa"
+   },
+   "telegramTranslatorDescription": {
+      "message": "Terjemahkan pesan di obrolan dan grup Telegram"
+   },
+   "telegramTranslatorTitle": {
+      "message": "Telegram Translator Pro"
+   },
+   "thankYouMessage": {
+      "message": "Ulasan bintang 5 memberi kami semangat! Terima kasih atas dukungan Anda!"
+   },
+   "translatedTextColor": {
+      "message": "Warna Teks Terjemahan"
+   },
+   "translationEngine": {
+      "message": "Mesin Terjemahan"
+   },
+   "translationFailed": {
+      "message": "Terjemahan gagal"
+   },
+   "translationForum": {
+      "message": "Terjemahan Forum"
+   },
+   "translationForumDescription": {
+      "message": "Jika diaktifkan, konten saluran forum akan diterjemahkan."
+   },
+   "translationPreview": {
+      "message": "Pratinjau Terjemahan"
+   },
+   "translationPreviewDescription": {
+      "message": "Jika diaktifkan, pratinjau konten yang diterjemahkan berdasarkan input Anda akan ditampilkan secara real-time, sehingga meningkatkan kualitas terjemahan Anda secara signifikan."
+   },
+   "translationSwitch": {
+      "message": "Sakelar Terjemahan"
+   },
+   "translationSwitchDescription": {
+      "message": "Setelah dinonaktifkan, program akan berhenti bekerja."
+   },
+   "twitchTranslatorDescription": {
+      "message": "Terjemahkan obrolan di siaran Twitch"
+   },
+   "twitchTranslatorTitle": {
+      "message": "Twitch Translator Pro"
+   },
+   "unlimited": {
+      "message": "Tak Terbatas"
+   },
+   "upgrade": {
+      "message": "Tingkatkan"
+   },
+   "usageToday": {
+      "message": "Penggunaan Hari Ini"
+   },
+   "useContactLanguage": {
+      "message": "Gunakan Bahasa Kontak"
+   },
+   "useContactLanguageDescriptionPart1": {
+      "message": "Jika diaktifkan, bahasa sumber pesan yang diterima akan diatur ke bahasa kontak."
+   },
+   "useContactLanguageDescriptionPart2": {
+      "message": "Secara default, pesan yang Anda terima akan terdeteksi otomatis, dan pengaturan bahasa kontak hanya berlaku untuk terjemahan konten input."
+   },
+   "userEmail": {
+      "message": "Email Pengguna:"
+   },
+   "userName": {
+      "message": "Nama Pengguna:"
+   },
+   "whatsappTranslatorDescription": {
+      "message": "Terjemahkan pesan dalam percakapan WhatsApp"
+   },
+   "whatsappTranslatorTitle": {
+      "message": "WhatsApp Translator Pro"
+   },
+   "yourLanguage": {
+      "message": "Bahasa Anda"
+   },
+   "yourLanguageDescription": {
+      "message": "Bahasa yang digunakan untuk menerjemahkan pesan yang Anda terima, biasanya bahasa ibu Anda."
+   }
+}

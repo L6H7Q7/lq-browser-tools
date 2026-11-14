@@ -1,0 +1,642 @@
+{
+   "Buy": {
+      "message": "Підписатися"
+   },
+   "Help": {
+      "message": "Довідка"
+   },
+   "accountTitle": {
+      "message": "Обліковий запис"
+   },
+   "addLanguage": {
+      "description": "Placeholder for the blacklist language picker (a compact dropdown used to add languages)",
+      "message": "Додати мову"
+   },
+   "addRule": {
+      "message": "+ Додати правило"
+   },
+   "autoTranslateIncomingMessages": {
+      "message": "Автоматичний переклад вхідних повідомлень"
+   },
+   "autoTranslateOutgoingMessages": {
+      "message": "Автоматичний переклад вихідних повідомлень"
+   },
+   "bilingualDisplay": {
+      "message": "Двомовне відображення"
+   },
+   "bilingualDisplayDescription": {
+      "message": "Після увімкнення відображатиметься двомовний вміст (переклад поруч з оригінальним текстом)."
+   },
+   "changeShortcuts": {
+      "message": "Змінити гарячі клавіші"
+   },
+   "clearCacheDescription": {
+      "message": "Весь перекладений вміст буде видалено."
+   },
+   "clearCacheTitle": {
+      "message": "Керування кешем"
+   },
+   "colorReset": {
+      "message": "Скинути"
+   },
+   "colorResetDescription": {
+      "message": "(Потрібне перезавантаження сторінок для набрання чинності.)"
+   },
+   "contactLanguage": {
+      "message": "Мова контакту"
+   },
+   "contactLanguageDescription": {
+      "message": "Мова, на яку перекладатимуться надіслані повідомлення — зазвичай мова іншої сторони."
+   },
+   "contactSupport": {
+      "message": "Якщо під час використання наших послуг у вас виникнуть будь-які проблеми, ви можете\n            зв'язатися з нами безпосередньо електронною поштою"
+   },
+   "customTranslatorColor": {
+      "message": "Власний колір перекладача"
+   },
+   "discordTranslatorProDescription": {
+      "message": "Перекладайте повідомлення безпосередньо в Discord"
+   },
+   "discordTranslatorProTitle": {
+      "message": "Discord Translator Pro"
+   },
+   "expiryDate": {
+      "message": "Дата закінчення"
+   },
+   "extensionDescription": {
+      "description": "Extension description",
+      "message": "Auto-translate YouTube comments and live chats for multilingual communication."
+   },
+   "extensionName": {
+      "description": "Extension name",
+      "message": "Multilingual Translator for YouTube™ Comments"
+   },
+   "extensionNameInExt": {
+      "description": "Extension name",
+      "message": " YouTube™ Comment Translator Pro"
+   },
+   "firstLoginFreeTrial": {
+      "message": "Під час першого входу ви одразу отримаєте 1-денну безкоштовну пробну версію"
+   },
+   "followBrowser": {
+      "description": "Option meaning the extension UI should follow the browser language",
+      "message": "Авто"
+   },
+   "getFreeTrial": {
+      "message": "Отримайте 2-денну безкоштовну пробну версію!"
+   },
+   "getFreeTrialWithReview": {
+      "message": "Залишивши відгук з оцінкою 5 зірок, ви отримаєте 2-денну безкоштовну пробну версію."
+   },
+   "getMoreFreeTrials": {
+      "message": "Отримати більше безкоштовних пробних версій"
+   },
+   "giveUsFiveStarReview": {
+      "message": "Залишити відгук на 5 зірок"
+   },
+   "glossaryDescription": {
+      "message": "Після увімкнення функція знаходитиме та замінюватиме ключові слова у реченні відповідно до таблиці."
+   },
+   "glossaryTitle": {
+      "message": "Глосарій"
+   },
+   "igTranslator": {
+      "message": "IG Translator"
+   },
+   "interfaceLanguage": {
+      "description": "Label for the UI language selector",
+      "message": "Мова інтерфейсу"
+   },
+   "interfaceLanguageDescription": {
+      "description": "Help text for the UI language selector",
+      "message": "Мова, яка використовується для власного інтерфейсу цього розширення (спливаюче вікно та налаштування). Виберіть «Авто», щоб відповідати мові вашого браузера."
+   },
+   "lang_af": {
+      "message": "Африкаанс (Afrikaans)"
+   },
+   "lang_am": {
+      "message": "Амхарська (አማርኛ)"
+   },
+   "lang_ar": {
+      "message": "Арабська (العربية)"
+   },
+   "lang_auto": {
+      "message": "Авто"
+   },
+   "lang_az": {
+      "message": "Азербайджанська (Azərbaycanca)"
+   },
+   "lang_be": {
+      "message": "Білоруська (Беларуская)"
+   },
+   "lang_bg": {
+      "message": "Болгарська (Български)"
+   },
+   "lang_bn": {
+      "message": "Бенгальська (বাংলা)"
+   },
+   "lang_bs": {
+      "message": "Боснійська (Bosanski)"
+   },
+   "lang_ca": {
+      "message": "Каталонська (Català)"
+   },
+   "lang_ceb": {
+      "message": "Себуанська (Binisaya)"
+   },
+   "lang_co": {
+      "message": "Корсиканська (Corsu)"
+   },
+   "lang_cs": {
+      "message": "Чеська (Čeština)"
+   },
+   "lang_cy": {
+      "message": "Валлійська (Cymraeg)"
+   },
+   "lang_da": {
+      "message": "Данська (Dansk)"
+   },
+   "lang_de": {
+      "message": "Німецька (Deutsch)"
+   },
+   "lang_el": {
+      "message": "Грецька (Ελληνικά)"
+   },
+   "lang_en": {
+      "message": "Англійська (English)"
+   },
+   "lang_eo": {
+      "message": "Есперанто (Esperanto)"
+   },
+   "lang_es": {
+      "message": "Іспанська (Español)"
+   },
+   "lang_et": {
+      "message": "Естонська (Eesti)"
+   },
+   "lang_eu": {
+      "message": "Баскська (Euskara)"
+   },
+   "lang_fa": {
+      "message": "Перська (فارسی)"
+   },
+   "lang_fi": {
+      "message": "Фінська (Suomi)"
+   },
+   "lang_fr": {
+      "message": "Французька (Français)"
+   },
+   "lang_fy": {
+      "message": "Фризька (Frysk)"
+   },
+   "lang_ga": {
+      "message": "Ірландська (Gaeilge)"
+   },
+   "lang_gd": {
+      "message": "Шотландська гельська (Gàidhlig)"
+   },
+   "lang_gl": {
+      "message": "Галісійська (Galego)"
+   },
+   "lang_gu": {
+      "message": "Гуджараті (ગુજરાતી)"
+   },
+   "lang_ha": {
+      "message": "Хауса (Hausa)"
+   },
+   "lang_haw": {
+      "message": "Гавайська (ʻŌlelo Hawaiʻi)"
+   },
+   "lang_hi": {
+      "message": "Гінді (हिन्दी)"
+   },
+   "lang_hmn": {
+      "message": "Хмонг (Hmoob)"
+   },
+   "lang_hr": {
+      "message": "Хорватська (Hrvatski)"
+   },
+   "lang_ht": {
+      "message": "Гаїтянська креольська (Kreyòl Ayisyen)"
+   },
+   "lang_hu": {
+      "message": "Угорська (Magyar)"
+   },
+   "lang_hy": {
+      "message": "Вірменська (Հայերեն)"
+   },
+   "lang_id": {
+      "message": "Індонезійська (Bahasa Indonesia)"
+   },
+   "lang_ig": {
+      "message": "Ігбо (Igbo)"
+   },
+   "lang_is": {
+      "message": "Ісландська (Íslenska)"
+   },
+   "lang_it": {
+      "message": "Італійська (Italiano)"
+   },
+   "lang_iw": {
+      "message": "Іврит (עברית)"
+   },
+   "lang_ja": {
+      "message": "Японська (日本語)"
+   },
+   "lang_jw": {
+      "message": "Яванська (Basa Jawa)"
+   },
+   "lang_ka": {
+      "message": "Грузинська (ქართული)"
+   },
+   "lang_kk": {
+      "message": "Казахська (Қазақша)"
+   },
+   "lang_km": {
+      "message": "Кхмерська (ខ្មែរ)"
+   },
+   "lang_kn": {
+      "message": "Каннада (ಕನ್ನಡ)"
+   },
+   "lang_ko": {
+      "message": "Корейська (한국어)"
+   },
+   "lang_ku": {
+      "message": "Курдська (Kurmanji) (Kurdî)"
+   },
+   "lang_ky": {
+      "message": "Киргизька (Кыргызча)"
+   },
+   "lang_la": {
+      "message": "Латинська (Latina)"
+   },
+   "lang_lb": {
+      "message": "Люксембурзька (Lëtzebuergesch)"
+   },
+   "lang_lo": {
+      "message": "Лаоська (ລາວ)"
+   },
+   "lang_lt": {
+      "message": "Литовська (Lietuvių)"
+   },
+   "lang_lv": {
+      "message": "Латвійська (Latviešu)"
+   },
+   "lang_ma": {
+      "message": "Пенджабська (ਪੰਜਾਬੀ)"
+   },
+   "lang_mg": {
+      "message": "Малагасійська (Malagasy)"
+   },
+   "lang_mi": {
+      "message": "Маорі (Māori)"
+   },
+   "lang_mk": {
+      "message": "Македонська (Македонски)"
+   },
+   "lang_ml": {
+      "message": "Малаялам (മലയാളം)"
+   },
+   "lang_mn": {
+      "message": "Монгольська (Монгол)"
+   },
+   "lang_mr": {
+      "message": "Маратхі (मराठी)"
+   },
+   "lang_ms": {
+      "message": "Малайська (Bahasa Melayu)"
+   },
+   "lang_mt": {
+      "message": "Мальтійська (Malti)"
+   },
+   "lang_my": {
+      "message": "М'янманська (бірманська) (မြန်မာစာ)"
+   },
+   "lang_ne": {
+      "message": "Непальська (नेपाली)"
+   },
+   "lang_nl": {
+      "message": "Нідерландська (Nederlands)"
+   },
+   "lang_no": {
+      "message": "Норвезька (Norsk)"
+   },
+   "lang_ny": {
+      "message": "Чічева (Chichewa)"
+   },
+   "lang_pl": {
+      "message": "Польська (Polski)"
+   },
+   "lang_ps": {
+      "message": "Пушту (پښتو)"
+   },
+   "lang_pt": {
+      "message": "Португальська (Português)"
+   },
+   "lang_ro": {
+      "message": "Румунська (Română)"
+   },
+   "lang_ru": {
+      "message": "Російська (Русский)"
+   },
+   "lang_sd": {
+      "message": "Сіндхі (سنڌي)"
+   },
+   "lang_si": {
+      "message": "Сингальська (සිංහල)"
+   },
+   "lang_sk": {
+      "message": "Словацька (Slovenčina)"
+   },
+   "lang_sl": {
+      "message": "Словенська (Slovenščina)"
+   },
+   "lang_sm": {
+      "message": "Самоанська (Gagana Sāmoa)"
+   },
+   "lang_sn": {
+      "message": "Шона (ChiShona)"
+   },
+   "lang_so": {
+      "message": "Сомалійська (Soomaali)"
+   },
+   "lang_sq": {
+      "message": "Албанська (Shqip)"
+   },
+   "lang_sr": {
+      "message": "Сербська (Српски)"
+   },
+   "lang_st": {
+      "message": "Сесото (Sesotho)"
+   },
+   "lang_su": {
+      "message": "Сунданська (Basa Sunda)"
+   },
+   "lang_sv": {
+      "message": "Шведська (Svenska)"
+   },
+   "lang_sw": {
+      "message": "Суахілі (Kiswahili)"
+   },
+   "lang_ta": {
+      "message": "Тамільська (தமிழ்)"
+   },
+   "lang_te": {
+      "message": "Телугу (తెలుగు)"
+   },
+   "lang_tg": {
+      "message": "Таджицька (Тоҷикӣ)"
+   },
+   "lang_th": {
+      "message": "Тайська (ไทย)"
+   },
+   "lang_tl": {
+      "message": "Філіппінська (Filipino)"
+   },
+   "lang_tr": {
+      "message": "Турецька (Türkçe)"
+   },
+   "lang_uk": {
+      "message": "Українська"
+   },
+   "lang_ur": {
+      "message": "Урду (اردو)"
+   },
+   "lang_uz": {
+      "message": "Узбецька (Oʻzbekcha)"
+   },
+   "lang_vi": {
+      "message": "В'єтнамська (Tiếng Việt)"
+   },
+   "lang_xh": {
+      "message": "Коса (isiXhosa)"
+   },
+   "lang_yi": {
+      "message": "Їдиш (ייִדיש)"
+   },
+   "lang_yo": {
+      "message": "Йоруба (Yorùbá)"
+   },
+   "lang_zh_cn": {
+      "message": "Китайська спрощена (简体中文)"
+   },
+   "lang_zh_tw": {
+      "message": "Китайська традиційна (繁體中文)"
+   },
+   "lang_zu": {
+      "message": "Зулу (isiZulu)"
+   },
+   "languageBlacklist": {
+      "description": "Label for the source-language blacklist selector",
+      "message": "Чорний список мов перекладу"
+   },
+   "languageBlacklistDescription": {
+      "description": "Help text for the source-language blacklist selector",
+      "message": "Вхідні повідомлення, у яких визначена мова джерела збігається з однією з обраних мов, не перекладатимуться і відображатимуться як є."
+   },
+   "logout": {
+      "message": "Вийти"
+   },
+   "manageSubscriptions": {
+      "message": "Керувати підписками"
+   },
+   "messagesPerDay": {
+      "message": "30 повідомлень/день"
+   },
+   "messengerTranslatorDescription": {
+      "message": "Легко спілкуйтеся різними мовами в Messenger"
+   },
+   "messengerTranslatorTitle": {
+      "message": "Messenger Translator Pro"
+   },
+   "modalUpgradeTitle": {
+      "message": "Оновити"
+   },
+   "moneyBackGuarantee": {
+      "message": "ГАРАНТІЯ ПОВЕРНЕННЯ КОШТІВ ПРОТЯГОМ 7 ДНІВ"
+   },
+   "moreSettings": {
+      "message": "Більше налаштувань"
+   },
+   "moreTools": {
+      "message": "Більше інструментів"
+   },
+   "multipleTranslationEngines": {
+      "message": "Кілька рушіїв перекладу"
+   },
+   "navGroupAdvanced": {
+      "description": "Options page sidebar nav item / card title for advanced settings (glossary, cache)",
+      "message": "Додатково"
+   },
+   "navGroupAppearance": {
+      "description": "Options page sidebar nav item / card title for translation engine and appearance settings",
+      "message": "Рушій і зовнішній вигляд"
+   },
+   "navGroupInputTranslation": {
+      "description": "Options page sidebar nav item / card title for settings about translating your own input before sending",
+      "message": "Переклад введення"
+   },
+   "navGroupLanguages": {
+      "description": "Options page sidebar nav item / card title for the language-selection settings group",
+      "message": "Мови"
+   },
+   "navGroupMessageTranslation": {
+      "description": "Options page sidebar nav item / card title for settings about translating received messages",
+      "message": "Переклад повідомлень"
+   },
+   "plan": {
+      "message": "Тариф:"
+   },
+   "refresh": {
+      "message": "Оновити"
+   },
+   "resetShortcuts": {
+      "message": "Скинути"
+   },
+   "retryTranslation": {
+      "message": "Повторити"
+   },
+   "sendImmediately": {
+      "message": "Надіслати одразу"
+   },
+   "sendImmediatelyDescription": {
+      "message": "Якщо увімкнено, натискання гарячої клавіші перекладе повідомлення та надішле його миттєво."
+   },
+   "sendImmediatelyDisabledHint": {
+      "message": "Увімкніть Попередній перегляд перекладу, щоб скористатися цією опцією."
+   },
+   "settingsTitle": {
+      "message": "Налаштування"
+   },
+   "share": {
+      "description": "Label / tooltip for the share button that opens the share menu",
+      "message": "Поділитися"
+   },
+   "shareCopied": {
+      "description": "Confirmation shown on the share menu after the text and link are copied",
+      "message": "Скопійовано!"
+   },
+   "shareCopyLink": {
+      "description": "Share menu item that copies the promo text and the extension store link to the clipboard",
+      "message": "Копіювати текст і посилання"
+   },
+   "shareMessage": {
+      "description": "Promotional sentence used as the share text when sharing the extension via the share button (copied to clipboard and pre-filled into social share dialogs). The store link is appended automatically.",
+      "message": "Погляньте на цей перекладач коментарів YouTube — він автоматично перекладає коментарі понад 100 мовами!"
+   },
+   "shareViaEmail": {
+      "description": "Share menu item that opens the user's email client to share the extension",
+      "message": "Електронна пошта"
+   },
+   "shortcutsDescription": {
+      "message": "Швидкий переклад та заміна повідомлення під час введення."
+   },
+   "shortcutsOneClickTranslation": {
+      "message": "Гарячі клавіші для перекладу та надсилання в один клік"
+   },
+   "shortcutsTitle": {
+      "message": "Гарячі клавіші"
+   },
+   "signInWithGoogle": {
+      "message": "Увійти через Google"
+   },
+   "skypeTranslatorDescription": {
+      "message": "Безперешкодно перекладайте повідомлення Skype в реальному часі"
+   },
+   "skypeTranslatorTitle": {
+      "message": "Skype Translator Pro"
+   },
+   "slackTranslatorDescription": {
+      "message": "Безперешкодно перекладайте повідомлення Slack"
+   },
+   "slackTranslatorTitle": {
+      "message": "Slack Translator Pro"
+   },
+   "snapchatTranslatorDescription": {
+      "message": "Автоматично перекладайте групові та особисті повідомлення в Snapchat"
+   },
+   "snapchatTranslatorTitle": {
+      "message": "Snapchat Translator Pro"
+   },
+   "supportOver100Languages": {
+      "message": "Підтримка понад 100+ мов"
+   },
+   "telegramTranslatorDescription": {
+      "message": "Перекладайте повідомлення в чатах та групах Telegram"
+   },
+   "telegramTranslatorTitle": {
+      "message": "Telegram Translator Pro"
+   },
+   "thankYouMessage": {
+      "message": "Оцінки 5 зірок надихають нас! Дякуємо за вашу підтримку!"
+   },
+   "translatedTextColor": {
+      "message": "Колір перекладеного тексту"
+   },
+   "translationEngine": {
+      "message": "Рушій перекладу"
+   },
+   "translationFailed": {
+      "message": "Помилка перекладу"
+   },
+   "translationForum": {
+      "message": "Переклад форуму"
+   },
+   "translationForumDescription": {
+      "message": "Якщо увімкнено, вміст каналу форуму буде перекладено."
+   },
+   "translationPreview": {
+      "message": "Попередній перегляд перекладу"
+   },
+   "translationPreviewDescription": {
+      "message": "Якщо увімкнено, у реальному часі відображатиметься попередній перегляд перекладеного вмісту на основі введеного тексту, що значно покращує якість перекладу."
+   },
+   "translationSwitch": {
+      "message": "Перемикач перекладу"
+   },
+   "translationSwitchDescription": {
+      "message": "Після вимкнення програма припинить роботу."
+   },
+   "twitchTranslatorDescription": {
+      "message": "Перекладайте чати трансляцій Twitch"
+   },
+   "twitchTranslatorTitle": {
+      "message": "Twitch Translator Pro"
+   },
+   "unlimited": {
+      "message": "Необмежено"
+   },
+   "upgrade": {
+      "message": "Оновити"
+   },
+   "usageToday": {
+      "message": "Використання сьогодні"
+   },
+   "useContactLanguage": {
+      "message": "Використовувати мову контакту"
+   },
+   "useContactLanguageDescriptionPart1": {
+      "message": "Якщо увімкнено, вихідна мова отриманих повідомлень буде встановлена як мова контакту."
+   },
+   "useContactLanguageDescriptionPart2": {
+      "message": "За замовчуванням отримані повідомлення визначаються автоматично, а налаштування мови контакту застосовується лише до перекладу введеного вмісту."
+   },
+   "userEmail": {
+      "message": "Електронна пошта:"
+   },
+   "userName": {
+      "message": "Ім'я користувача:"
+   },
+   "whatsappTranslatorDescription": {
+      "message": "Перекладайте повідомлення в розмовах WhatsApp"
+   },
+   "whatsappTranslatorTitle": {
+      "message": "WhatsApp Translator Pro"
+   },
+   "yourLanguage": {
+      "message": "Ваша мова"
+   },
+   "yourLanguageDescription": {
+      "message": "Мова, на яку перекладатимуться отримані повідомлення — зазвичай ваша рідна мова."
+   }
+}

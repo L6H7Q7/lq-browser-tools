@@ -1,0 +1,79 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "icon128.plasmo.3c1ed2d2.png",
+         "16": "icon16.plasmo.6c567d50.png",
+         "32": "icon32.plasmo.76b92899.png",
+         "48": "icon48.plasmo.aced7582.png",
+         "64": "icon64.plasmo.8bb5e6e0.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "author": "Plasmo Corp. \u003Cfoss@plasmo.com>",
+   "background": {
+      "service_worker": "static/background/index.js"
+   },
+   "content_scripts": [ {
+      "css": [  ],
+      "js": [ "InputTranslator.c7546567.js" ],
+      "matches": [ "*://*.youtube.com/*" ]
+   }, {
+      "all_frames": true,
+      "css": [  ],
+      "js": [ "TranslationStreamButton.2c42f7e6.js" ],
+      "matches": [ "*://*.youtube.com/*" ]
+   }, {
+      "css": [  ],
+      "js": [ "TranslationButton.8010a5f4.js" ],
+      "matches": [ "*://*.youtube.com/*" ]
+   }, {
+      "all_frames": true,
+      "css": [  ],
+      "js": [ "TranslationStreamPreview.2eff8f14.js" ],
+      "matches": [ "*://*.youtube.com/*" ]
+   }, {
+      "all_frames": true,
+      "css": [ "Translator.9aaa3034.css" ],
+      "js": [ "Translator.7f0b6bc1.js" ],
+      "matches": [ "*://*.youtube.com/*" ]
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_extensionDescription__",
+   "host_permissions": [ "*://translate.google.com/*" ],
+   "icons": {
+      "128": "icon128.plasmo.3c1ed2d2.png",
+      "16": "icon16.plasmo.6c567d50.png",
+      "32": "icon32.plasmo.76b92899.png",
+      "48": "icon48.plasmo.aced7582.png",
+      "64": "icon64.plasmo.8bb5e6e0.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvPJb+SPESU2WqipiqwnMNK+S8evFyyqga1zQ7M1vC5BLPUZVIKU7hlPSYqGXUvV2F17BgohlpIo3qD1q8KPf3wBVWcblDIVzLv5EPACdhudYT74vw1iCdCaNwpoJhQChRfLac6uvcXtamrxx9EOb0ROl5THU9NIC0c7vaYeKbbienzxF/qQC8YcwtRE/HgKIqN4jpZ3LcoaobrJCTIDhgCf/djVjPaPQf8uDayZ7ZwXEZyv9tCTsSZYK19ieFjEyYTiHWgThUDprFqCE1R40ZIFWsuiX35E8ng08XGDkkUj1SHJnQy20UPtx1OXksbH6vyE4nMXhU4rF7zJ+OPAJkQIDAQAB",
+   "manifest_version": 3,
+   "name": "YouTube™ Comment Translator Pro (fix v1)",
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "options.html"
+   },
+   "permissions": [ "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.17.3",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "_locales/*/messages.json" ]
+   }, {
+      "matches": [ "*://*.youtube.com/*" ],
+      "resources": [ "InputTranslator.c91d57c7.css" ]
+   }, {
+      "matches": [ "*://*.youtube.com/*" ],
+      "resources": [ "TranslationStreamButton.95bad065.css" ]
+   }, {
+      "matches": [ "*://*.youtube.com/*" ],
+      "resources": [ "TranslationStreamButton.95bad065.css" ]
+   }, {
+      "matches": [ "*://*.youtube.com/*" ],
+      "resources": [ "TranslationStreamButton.95bad065.css" ]
+   }, {
+      "matches": [ "*://*.youtube.com/*" ],
+      "resources": [ "TranslationStreamButton.95bad065.css" ]
+   } ]
+}

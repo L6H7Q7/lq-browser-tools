@@ -1,0 +1,642 @@
+{
+   "Buy": {
+      "message": "订阅"
+   },
+   "Help": {
+      "message": "帮助"
+   },
+   "accountTitle": {
+      "message": "账户"
+   },
+   "addLanguage": {
+      "description": "Placeholder for the blacklist language picker (a compact dropdown used to add languages)",
+      "message": "添加语言"
+   },
+   "addRule": {
+      "message": "+ 添加规则"
+   },
+   "autoTranslateIncomingMessages": {
+      "message": "自动翻译收到的消息"
+   },
+   "autoTranslateOutgoingMessages": {
+      "message": "自动翻译发出的消息"
+   },
+   "bilingualDisplay": {
+      "message": "双语显示"
+   },
+   "bilingualDisplayDescription": {
+      "message": "开启后，将显示双语内容（翻译与原文并排显示）。"
+   },
+   "changeShortcuts": {
+      "message": "修改快捷键"
+   },
+   "clearCacheDescription": {
+      "message": "所有翻译内容将被清除。"
+   },
+   "clearCacheTitle": {
+      "message": "缓存管理"
+   },
+   "colorReset": {
+      "message": "重置"
+   },
+   "colorResetDescription": {
+      "message": "（需要重新加载页面后生效。）"
+   },
+   "contactLanguage": {
+      "message": "联系人语言"
+   },
+   "contactLanguageDescription": {
+      "message": "您发送的消息将被翻译成的语言，通常是对方使用的语言。"
+   },
+   "contactSupport": {
+      "message": "如果您在使用我们的服务过程中遇到任何问题，可以\n            直接通过电子邮件联系我们"
+   },
+   "customTranslatorColor": {
+      "message": "自定义翻译器颜色"
+   },
+   "discordTranslatorProDescription": {
+      "message": "直接在 Discord 中翻译消息"
+   },
+   "discordTranslatorProTitle": {
+      "message": "Discord Translator Pro"
+   },
+   "expiryDate": {
+      "message": "到期日期"
+   },
+   "extensionDescription": {
+      "description": "Extension description",
+      "message": "自动翻译 YouTube 评论和直播聊天，支持超过 100 种语言。"
+   },
+   "extensionName": {
+      "description": "Extension name",
+      "message": "YouTube™ 评论翻译 Pro - 沉浸式翻译·双语对照·实时自动翻译"
+   },
+   "extensionNameInExt": {
+      "description": "Extension name",
+      "message": " YouTube™ Comment Translator Pro (fix v1)"
+   },
+   "firstLoginFreeTrial": {
+      "message": "首次登录后，您将立即获得 1 天免费试用"
+   },
+   "followBrowser": {
+      "description": "Option meaning the extension UI should follow the browser language",
+      "message": "自动"
+   },
+   "getFreeTrial": {
+      "message": "获取 2 天免费试用！"
+   },
+   "getFreeTrialWithReview": {
+      "message": "给我们留下 5 星好评，即可获得 2 天免费试用。"
+   },
+   "getMoreFreeTrials": {
+      "message": "获取更多免费试用"
+   },
+   "giveUsFiveStarReview": {
+      "message": "给我们五星好评"
+   },
+   "glossaryDescription": {
+      "message": "启用后，该功能将根据词汇表检索并替换句子中的关键词。"
+   },
+   "glossaryTitle": {
+      "message": "词汇表"
+   },
+   "igTranslator": {
+      "message": "IG Translator"
+   },
+   "interfaceLanguage": {
+      "description": "Label for the UI language selector",
+      "message": "界面语言"
+   },
+   "interfaceLanguageDescription": {
+      "description": "Help text for the UI language selector",
+      "message": "此扩展程序界面（弹出窗口和设置）所使用的语言。选择“自动”以匹配您的浏览器语言。"
+   },
+   "lang_af": {
+      "message": "南非荷兰语 (Afrikaans)"
+   },
+   "lang_am": {
+      "message": "阿姆哈拉语 (አማርኛ)"
+   },
+   "lang_ar": {
+      "message": "阿拉伯语 (العربية)"
+   },
+   "lang_auto": {
+      "message": "自动"
+   },
+   "lang_az": {
+      "message": "阿塞拜疆语 (Azərbaycanca)"
+   },
+   "lang_be": {
+      "message": "白俄罗斯语 (Беларуская)"
+   },
+   "lang_bg": {
+      "message": "保加利亚语 (Български)"
+   },
+   "lang_bn": {
+      "message": "孟加拉语 (বাংলা)"
+   },
+   "lang_bs": {
+      "message": "波斯尼亚语 (Bosanski)"
+   },
+   "lang_ca": {
+      "message": "加泰罗尼亚语 (Català)"
+   },
+   "lang_ceb": {
+      "message": "宿务语 (Binisaya)"
+   },
+   "lang_co": {
+      "message": "科西嘉语 (Corsu)"
+   },
+   "lang_cs": {
+      "message": "捷克语 (Čeština)"
+   },
+   "lang_cy": {
+      "message": "威尔士语 (Cymraeg)"
+   },
+   "lang_da": {
+      "message": "丹麦语 (Dansk)"
+   },
+   "lang_de": {
+      "message": "德语 (Deutsch)"
+   },
+   "lang_el": {
+      "message": "希腊语 (Ελληνικά)"
+   },
+   "lang_en": {
+      "message": "英语 (English)"
+   },
+   "lang_eo": {
+      "message": "世界语 (Esperanto)"
+   },
+   "lang_es": {
+      "message": "西班牙语 (Español)"
+   },
+   "lang_et": {
+      "message": "爱沙尼亚语 (Eesti)"
+   },
+   "lang_eu": {
+      "message": "巴斯克语 (Euskara)"
+   },
+   "lang_fa": {
+      "message": "波斯语 (فارسی)"
+   },
+   "lang_fi": {
+      "message": "芬兰语 (Suomi)"
+   },
+   "lang_fr": {
+      "message": "法语 (Français)"
+   },
+   "lang_fy": {
+      "message": "弗里斯兰语 (Frysk)"
+   },
+   "lang_ga": {
+      "message": "爱尔兰语 (Gaeilge)"
+   },
+   "lang_gd": {
+      "message": "苏格兰盖尔语 (Gàidhlig)"
+   },
+   "lang_gl": {
+      "message": "加利西亚语 (Galego)"
+   },
+   "lang_gu": {
+      "message": "古吉拉特语 (ગુજરાતી)"
+   },
+   "lang_ha": {
+      "message": "豪萨语 (Hausa)"
+   },
+   "lang_haw": {
+      "message": "夏威夷语 (ʻŌlelo Hawaiʻi)"
+   },
+   "lang_hi": {
+      "message": "印地语 (हिन्दी)"
+   },
+   "lang_hmn": {
+      "message": "苗语 (Hmoob)"
+   },
+   "lang_hr": {
+      "message": "克罗地亚语 (Hrvatski)"
+   },
+   "lang_ht": {
+      "message": "海地克里奥尔语 (Kreyòl Ayisyen)"
+   },
+   "lang_hu": {
+      "message": "匈牙利语 (Magyar)"
+   },
+   "lang_hy": {
+      "message": "亚美尼亚语 (Հայերեն)"
+   },
+   "lang_id": {
+      "message": "印度尼西亚语 (Bahasa Indonesia)"
+   },
+   "lang_ig": {
+      "message": "伊博语 (Igbo)"
+   },
+   "lang_is": {
+      "message": "冰岛语 (Íslenska)"
+   },
+   "lang_it": {
+      "message": "意大利语 (Italiano)"
+   },
+   "lang_iw": {
+      "message": "希伯来语 (עברית)"
+   },
+   "lang_ja": {
+      "message": "日语 (日本語)"
+   },
+   "lang_jw": {
+      "message": "爪哇语 (Basa Jawa)"
+   },
+   "lang_ka": {
+      "message": "格鲁吉亚语 (ქართული)"
+   },
+   "lang_kk": {
+      "message": "哈萨克语 (Қазақша)"
+   },
+   "lang_km": {
+      "message": "高棉语 (ខ្មែរ)"
+   },
+   "lang_kn": {
+      "message": "卡纳达语 (ಕನ್ನಡ)"
+   },
+   "lang_ko": {
+      "message": "韩语 (한국어)"
+   },
+   "lang_ku": {
+      "message": "库尔德语（库尔曼吉）(Kurdî)"
+   },
+   "lang_ky": {
+      "message": "吉尔吉斯语 (Кыргызча)"
+   },
+   "lang_la": {
+      "message": "拉丁语 (Latina)"
+   },
+   "lang_lb": {
+      "message": "卢森堡语 (Lëtzebuergesch)"
+   },
+   "lang_lo": {
+      "message": "老挝语 (ລາວ)"
+   },
+   "lang_lt": {
+      "message": "立陶宛语 (Lietuvių)"
+   },
+   "lang_lv": {
+      "message": "拉脱维亚语 (Latviešu)"
+   },
+   "lang_ma": {
+      "message": "旁遮普语 (ਪੰਜਾਬੀ)"
+   },
+   "lang_mg": {
+      "message": "马达加斯加语 (Malagasy)"
+   },
+   "lang_mi": {
+      "message": "毛利语 (Māori)"
+   },
+   "lang_mk": {
+      "message": "马其顿语 (Македонски)"
+   },
+   "lang_ml": {
+      "message": "马拉雅拉姆语 (മലയാളം)"
+   },
+   "lang_mn": {
+      "message": "蒙古语 (Монгол)"
+   },
+   "lang_mr": {
+      "message": "马拉地语 (मराठी)"
+   },
+   "lang_ms": {
+      "message": "马来语 (Bahasa Melayu)"
+   },
+   "lang_mt": {
+      "message": "马耳他语 (Malti)"
+   },
+   "lang_my": {
+      "message": "缅甸语 (မြန်မာစာ)"
+   },
+   "lang_ne": {
+      "message": "尼泊尔语 (नेपाली)"
+   },
+   "lang_nl": {
+      "message": "荷兰语 (Nederlands)"
+   },
+   "lang_no": {
+      "message": "挪威语 (Norsk)"
+   },
+   "lang_ny": {
+      "message": "齐切瓦语 (Chichewa)"
+   },
+   "lang_pl": {
+      "message": "波兰语 (Polski)"
+   },
+   "lang_ps": {
+      "message": "普什图语 (پښتو)"
+   },
+   "lang_pt": {
+      "message": "葡萄牙语 (Português)"
+   },
+   "lang_ro": {
+      "message": "罗马尼亚语 (Română)"
+   },
+   "lang_ru": {
+      "message": "俄语 (Русский)"
+   },
+   "lang_sd": {
+      "message": "信德语 (سنڌي)"
+   },
+   "lang_si": {
+      "message": "僧伽罗语 (සිංහල)"
+   },
+   "lang_sk": {
+      "message": "斯洛伐克语 (Slovenčina)"
+   },
+   "lang_sl": {
+      "message": "斯洛文尼亚语 (Slovenščina)"
+   },
+   "lang_sm": {
+      "message": "萨摩亚语 (Gagana Sāmoa)"
+   },
+   "lang_sn": {
+      "message": "绍纳语 (ChiShona)"
+   },
+   "lang_so": {
+      "message": "索马里语 (Soomaali)"
+   },
+   "lang_sq": {
+      "message": "阿尔巴尼亚语 (Shqip)"
+   },
+   "lang_sr": {
+      "message": "塞尔维亚语 (Српски)"
+   },
+   "lang_st": {
+      "message": "塞索托语 (Sesotho)"
+   },
+   "lang_su": {
+      "message": "巽他语 (Basa Sunda)"
+   },
+   "lang_sv": {
+      "message": "瑞典语 (Svenska)"
+   },
+   "lang_sw": {
+      "message": "斯瓦希里语 (Kiswahili)"
+   },
+   "lang_ta": {
+      "message": "泰米尔语 (தமிழ்)"
+   },
+   "lang_te": {
+      "message": "泰卢固语 (తెలుగు)"
+   },
+   "lang_tg": {
+      "message": "塔吉克语 (Тоҷикӣ)"
+   },
+   "lang_th": {
+      "message": "泰语 (ไทย)"
+   },
+   "lang_tl": {
+      "message": "菲律宾语 (Filipino)"
+   },
+   "lang_tr": {
+      "message": "土耳其语 (Türkçe)"
+   },
+   "lang_uk": {
+      "message": "乌克兰语 (Українська)"
+   },
+   "lang_ur": {
+      "message": "乌尔都语 (اردو)"
+   },
+   "lang_uz": {
+      "message": "乌兹别克语 (Oʻzbekcha)"
+   },
+   "lang_vi": {
+      "message": "越南语 (Tiếng Việt)"
+   },
+   "lang_xh": {
+      "message": "科萨语 (isiXhosa)"
+   },
+   "lang_yi": {
+      "message": "意第绪语 (ייִדיש)"
+   },
+   "lang_yo": {
+      "message": "约鲁巴语 (Yorùbá)"
+   },
+   "lang_zh_cn": {
+      "message": "简体中文"
+   },
+   "lang_zh_tw": {
+      "message": "繁体中文 (繁體中文)"
+   },
+   "lang_zu": {
+      "message": "祖鲁语 (isiZulu)"
+   },
+   "languageBlacklist": {
+      "description": "Label for the source-language blacklist selector",
+      "message": "翻译黑名单"
+   },
+   "languageBlacklistDescription": {
+      "description": "Help text for the source-language blacklist selector",
+      "message": "检测到来源语言为所选语言之一的收到消息将不会被翻译，并按原样显示。"
+   },
+   "logout": {
+      "message": "退出登录"
+   },
+   "manageSubscriptions": {
+      "message": "管理订阅"
+   },
+   "messagesPerDay": {
+      "message": "每天 30 条消息"
+   },
+   "messengerTranslatorDescription": {
+      "message": "在 Messenger 中轻松实现跨语言沟通"
+   },
+   "messengerTranslatorTitle": {
+      "message": "Messenger Translator Pro"
+   },
+   "modalUpgradeTitle": {
+      "message": "升级"
+   },
+   "moneyBackGuarantee": {
+      "message": "7 天无理由退款保证"
+   },
+   "moreSettings": {
+      "message": "更多设置"
+   },
+   "moreTools": {
+      "message": "更多工具"
+   },
+   "multipleTranslationEngines": {
+      "message": "多种翻译引擎"
+   },
+   "navGroupAdvanced": {
+      "description": "Options page sidebar nav item / card title for advanced settings (glossary, cache)",
+      "message": "高级"
+   },
+   "navGroupAppearance": {
+      "description": "Options page sidebar nav item / card title for translation engine and appearance settings",
+      "message": "引擎与外观"
+   },
+   "navGroupInputTranslation": {
+      "description": "Options page sidebar nav item / card title for settings about translating your own input before sending",
+      "message": "输入翻译"
+   },
+   "navGroupLanguages": {
+      "description": "Options page sidebar nav item / card title for the language-selection settings group",
+      "message": "语言"
+   },
+   "navGroupMessageTranslation": {
+      "description": "Options page sidebar nav item / card title for settings about translating received messages",
+      "message": "消息翻译"
+   },
+   "plan": {
+      "message": "套餐："
+   },
+   "refresh": {
+      "message": "刷新"
+   },
+   "resetShortcuts": {
+      "message": "重置"
+   },
+   "retryTranslation": {
+      "message": "重试"
+   },
+   "sendImmediately": {
+      "message": "立即发送"
+   },
+   "sendImmediatelyDescription": {
+      "message": "启用后，按下快捷键将翻译您的消息并立即发送。"
+   },
+   "sendImmediatelyDisabledHint": {
+      "message": "开启翻译预览后即可使用此选项。"
+   },
+   "settingsTitle": {
+      "message": "设置"
+   },
+   "share": {
+      "description": "Label / tooltip for the share button that opens the share menu",
+      "message": "分享"
+   },
+   "shareCopied": {
+      "description": "Confirmation shown on the share menu after the text and link are copied",
+      "message": "已复制！"
+   },
+   "shareCopyLink": {
+      "description": "Share menu item that copies the promo text and the extension store link to the clipboard",
+      "message": "复制文本和链接"
+   },
+   "shareMessage": {
+      "description": "Promotional sentence used as the share text when sharing the extension via the share button (copied to clipboard and pre-filled into social share dialogs). The store link is appended automatically.",
+      "message": "看看这个 YouTube 评论翻译工具——它能自动翻译 100+ 种语言的评论！"
+   },
+   "shareViaEmail": {
+      "description": "Share menu item that opens the user's email client to share the extension",
+      "message": "邮件"
+   },
+   "shortcutsDescription": {
+      "message": "快速翻译并替换输入框中的消息。"
+   },
+   "shortcutsOneClickTranslation": {
+      "message": "一键翻译并发送的快捷键"
+   },
+   "shortcutsTitle": {
+      "message": "快捷键"
+   },
+   "signInWithGoogle": {
+      "message": "使用 Google 登录"
+   },
+   "skypeTranslatorDescription": {
+      "message": "实时无缝翻译您的 Skype 消息"
+   },
+   "skypeTranslatorTitle": {
+      "message": "Skype Translator Pro"
+   },
+   "slackTranslatorDescription": {
+      "message": "无缝翻译 Slack 消息"
+   },
+   "slackTranslatorTitle": {
+      "message": "Slack Translator Pro"
+   },
+   "snapchatTranslatorDescription": {
+      "message": "自动翻译您在 Snapchat 中的群聊和私聊消息"
+   },
+   "snapchatTranslatorTitle": {
+      "message": "Snapchat Translator Pro"
+   },
+   "supportOver100Languages": {
+      "message": "支持超过 100 种语言"
+   },
+   "telegramTranslatorDescription": {
+      "message": "翻译 Telegram 聊天和群组中的消息"
+   },
+   "telegramTranslatorTitle": {
+      "message": "Telegram Translator Pro"
+   },
+   "thankYouMessage": {
+      "message": "五星好评是我们前进的动力！感谢您的支持！"
+   },
+   "translatedTextColor": {
+      "message": "翻译文本颜色"
+   },
+   "translationEngine": {
+      "message": "翻译引擎"
+   },
+   "translationFailed": {
+      "message": "翻译失败"
+   },
+   "translationForum": {
+      "message": "论坛翻译"
+   },
+   "translationForumDescription": {
+      "message": "启用后，论坛频道中的内容将被翻译。"
+   },
+   "translationPreview": {
+      "message": "翻译预览"
+   },
+   "translationPreviewDescription": {
+      "message": "启用后，将根据您的输入内容实时显示翻译预览，大幅提升您的翻译体验。"
+   },
+   "translationSwitch": {
+      "message": "翻译开关"
+   },
+   "translationSwitchDescription": {
+      "message": "关闭后，程序将停止运行。"
+   },
+   "twitchTranslatorDescription": {
+      "message": "翻译 Twitch 直播中的聊天内容"
+   },
+   "twitchTranslatorTitle": {
+      "message": "Twitch Translator Pro"
+   },
+   "unlimited": {
+      "message": "无限制"
+   },
+   "upgrade": {
+      "message": "升级"
+   },
+   "usageToday": {
+      "message": "今日用量"
+   },
+   "useContactLanguage": {
+      "message": "使用联系人语言"
+   },
+   "useContactLanguageDescriptionPart1": {
+      "message": "启用后，收到消息的源语言将被设置为联系人语言。"
+   },
+   "useContactLanguageDescriptionPart2": {
+      "message": "默认情况下，您收到的消息将自动检测语言，联系人语言设置仅适用于输入内容的翻译。"
+   },
+   "userEmail": {
+      "message": "用户邮箱："
+   },
+   "userName": {
+      "message": "用户名："
+   },
+   "whatsappTranslatorDescription": {
+      "message": "翻译 WhatsApp 对话中的消息"
+   },
+   "whatsappTranslatorTitle": {
+      "message": "WhatsApp Translator Pro"
+   },
+   "yourLanguage": {
+      "message": "我的语言"
+   },
+   "yourLanguageDescription": {
+      "message": "您收到的消息将被翻译成的语言，通常是您的母语。"
+   }
+}

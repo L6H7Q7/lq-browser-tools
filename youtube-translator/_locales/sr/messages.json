@@ -1,0 +1,10 @@
+{
+   "extensionDescription": {
+      "description": "Extension description",
+      "message": "Automatically translate comments and live chats on YouTube in real-time."
+   },
+   "extensionName": {
+      "description": "Extension name",
+      "message": "YouTube™ Comment & Live Chat Auto-Translator"
+   }
+}

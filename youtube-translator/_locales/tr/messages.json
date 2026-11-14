@@ -1,0 +1,642 @@
+{
+   "Buy": {
+      "message": "Abone Ol"
+   },
+   "Help": {
+      "message": "Yardım"
+   },
+   "accountTitle": {
+      "message": "Hesap"
+   },
+   "addLanguage": {
+      "description": "Placeholder for the blacklist language picker (a compact dropdown used to add languages)",
+      "message": "Dil ekle"
+   },
+   "addRule": {
+      "message": "+ Kural Ekle"
+   },
+   "autoTranslateIncomingMessages": {
+      "message": "Gelen Mesajları Otomatik Çevir"
+   },
+   "autoTranslateOutgoingMessages": {
+      "message": "Giden Mesajları Otomatik Çevir"
+   },
+   "bilingualDisplay": {
+      "message": "İki Dilli Görüntüleme"
+   },
+   "bilingualDisplayDescription": {
+      "message": "Açıldığında, iki dilli içerik gösterilir (çeviri orijinal metinle birlikte görüntülenir)."
+   },
+   "changeShortcuts": {
+      "message": "Kısayolları Değiştir"
+   },
+   "clearCacheDescription": {
+      "message": "Tüm çeviri içerikleri temizlenecek."
+   },
+   "clearCacheTitle": {
+      "message": "Önbellek Yönetimi"
+   },
+   "colorReset": {
+      "message": "Sıfırla"
+   },
+   "colorResetDescription": {
+      "message": "(Etkili olması için sayfaların yeniden yüklenmesi gerekir.)"
+   },
+   "contactLanguage": {
+      "message": "Kişi Dili"
+   },
+   "contactLanguageDescription": {
+      "message": "Gönderdiğiniz mesajların çevrileceği dil, genellikle karşı tarafın dilidir."
+   },
+   "contactSupport": {
+      "message": "Hizmetlerimizi kullanırken herhangi bir sorunla karşılaşırsanız bize doğrudan\n            e-posta ile ulaşabilirsiniz"
+   },
+   "customTranslatorColor": {
+      "message": "Özel Çevirmen Rengi"
+   },
+   "discordTranslatorProDescription": {
+      "message": "Mesajları doğrudan Discord'da çevirin"
+   },
+   "discordTranslatorProTitle": {
+      "message": "Discord Translator Pro"
+   },
+   "expiryDate": {
+      "message": "Son Kullanma Tarihi"
+   },
+   "extensionDescription": {
+      "description": "Extension description",
+      "message": "YouTube yorumlarını ve canlı sohbeti 100'den fazla dili destekleyerek otomatik olarak çevirin."
+   },
+   "extensionName": {
+      "description": "Extension name",
+      "message": "YouTube™ Yorum Çevirmeni Pro - Çift Dilli ve Otomatik Anlık Çeviri"
+   },
+   "extensionNameInExt": {
+      "description": "Extension name",
+      "message": " YouTube™ Comment Translator Pro"
+   },
+   "firstLoginFreeTrial": {
+      "message": "İlk girişinizde hemen 1 günlük ücretsiz deneme alacaksınız"
+   },
+   "followBrowser": {
+      "description": "Option meaning the extension UI should follow the browser language",
+      "message": "Otomatik"
+   },
+   "getFreeTrial": {
+      "message": "2 Günlük Ücretsiz Deneme Alın!"
+   },
+   "getFreeTrialWithReview": {
+      "message": "Bize 5 yıldızlı bir yorum yazarak 2 günlük ücretsiz deneme kazanabilirsiniz."
+   },
+   "getMoreFreeTrials": {
+      "message": "Daha Fazla Ücretsiz Deneme Alın"
+   },
+   "giveUsFiveStarReview": {
+      "message": "Bize 5 Yıldız Verin"
+   },
+   "glossaryDescription": {
+      "message": "Etkinleştirildiğinde, işlev cümledeki anahtar kelimeleri tabloya göre alıp değiştirir."
+   },
+   "glossaryTitle": {
+      "message": "Sözlük"
+   },
+   "igTranslator": {
+      "message": "IG Translator"
+   },
+   "interfaceLanguage": {
+      "description": "Label for the UI language selector",
+      "message": "Arayüz Dili"
+   },
+   "interfaceLanguageDescription": {
+      "description": "Help text for the UI language selector",
+      "message": "Bu eklentinin kendi arayüzünde (açılır pencere ve ayarlar) kullanılan dil. Tarayıcınızın diliyle eşleşmesi için \"Otomatik\" seçeneğini belirleyin."
+   },
+   "lang_af": {
+      "message": "Afrikaanca (Afrikaans)"
+   },
+   "lang_am": {
+      "message": "Amharca (አማርኛ)"
+   },
+   "lang_ar": {
+      "message": "Arapça (العربية)"
+   },
+   "lang_auto": {
+      "message": "Otomatik"
+   },
+   "lang_az": {
+      "message": "Azerbaycanca (Azərbaycanca)"
+   },
+   "lang_be": {
+      "message": "Beyaz Rusça (Беларуская)"
+   },
+   "lang_bg": {
+      "message": "Bulgarca (Български)"
+   },
+   "lang_bn": {
+      "message": "Bengalce (বাংলা)"
+   },
+   "lang_bs": {
+      "message": "Boşnakça (Bosanski)"
+   },
+   "lang_ca": {
+      "message": "Katalanca (Català)"
+   },
+   "lang_ceb": {
+      "message": "Sebuanca (Binisaya)"
+   },
+   "lang_co": {
+      "message": "Korsikaca (Corsu)"
+   },
+   "lang_cs": {
+      "message": "Çekçe (Čeština)"
+   },
+   "lang_cy": {
+      "message": "Galce (Cymraeg)"
+   },
+   "lang_da": {
+      "message": "Danca (Dansk)"
+   },
+   "lang_de": {
+      "message": "Almanca (Deutsch)"
+   },
+   "lang_el": {
+      "message": "Yunanca (Ελληνικά)"
+   },
+   "lang_en": {
+      "message": "İngilizce (English)"
+   },
+   "lang_eo": {
+      "message": "Esperanto (Esperanto)"
+   },
+   "lang_es": {
+      "message": "İspanyolca (Español)"
+   },
+   "lang_et": {
+      "message": "Estonca (Eesti)"
+   },
+   "lang_eu": {
+      "message": "Baskça (Euskara)"
+   },
+   "lang_fa": {
+      "message": "Farsça (فارسی)"
+   },
+   "lang_fi": {
+      "message": "Fince (Suomi)"
+   },
+   "lang_fr": {
+      "message": "Fransızca (Français)"
+   },
+   "lang_fy": {
+      "message": "Frizyaca (Frysk)"
+   },
+   "lang_ga": {
+      "message": "İrlandaca (Gaeilge)"
+   },
+   "lang_gd": {
+      "message": "İskoç Gaelikçesi (Gàidhlig)"
+   },
+   "lang_gl": {
+      "message": "Galiçyaca (Galego)"
+   },
+   "lang_gu": {
+      "message": "Güceratça (ગુજરાતી)"
+   },
+   "lang_ha": {
+      "message": "Hausa (Hausa)"
+   },
+   "lang_haw": {
+      "message": "Hawaiice (ʻŌlelo Hawaiʻi)"
+   },
+   "lang_hi": {
+      "message": "Hintçe (हिन्दी)"
+   },
+   "lang_hmn": {
+      "message": "Hmongca (Hmoob)"
+   },
+   "lang_hr": {
+      "message": "Hırvatça (Hrvatski)"
+   },
+   "lang_ht": {
+      "message": "Haiti Kreolü (Kreyòl Ayisyen)"
+   },
+   "lang_hu": {
+      "message": "Macarca (Magyar)"
+   },
+   "lang_hy": {
+      "message": "Ermenice (Հայերեն)"
+   },
+   "lang_id": {
+      "message": "Endonezce (Bahasa Indonesia)"
+   },
+   "lang_ig": {
+      "message": "İgbo (Igbo)"
+   },
+   "lang_is": {
+      "message": "İzlandaca (Íslenska)"
+   },
+   "lang_it": {
+      "message": "İtalyanca (Italiano)"
+   },
+   "lang_iw": {
+      "message": "İbranice (עברית)"
+   },
+   "lang_ja": {
+      "message": "Japonca (日本語)"
+   },
+   "lang_jw": {
+      "message": "Cava Dili (Basa Jawa)"
+   },
+   "lang_ka": {
+      "message": "Gürcüce (ქართული)"
+   },
+   "lang_kk": {
+      "message": "Kazakça (Қазақша)"
+   },
+   "lang_km": {
+      "message": "Kmerce (ខ្មែរ)"
+   },
+   "lang_kn": {
+      "message": "Kannada (ಕನ್ನಡ)"
+   },
+   "lang_ko": {
+      "message": "Korece (한국어)"
+   },
+   "lang_ku": {
+      "message": "Kürtçe (Kurmanci) (Kurdî)"
+   },
+   "lang_ky": {
+      "message": "Kırgızca (Кыргызча)"
+   },
+   "lang_la": {
+      "message": "Latince (Latina)"
+   },
+   "lang_lb": {
+      "message": "Lüksemburgca (Lëtzebuergesch)"
+   },
+   "lang_lo": {
+      "message": "Laoca (ລາວ)"
+   },
+   "lang_lt": {
+      "message": "Litvanca (Lietuvių)"
+   },
+   "lang_lv": {
+      "message": "Letonca (Latviešu)"
+   },
+   "lang_ma": {
+      "message": "Pencapça (ਪੰਜਾਬੀ)"
+   },
+   "lang_mg": {
+      "message": "Malgaşça (Malagasy)"
+   },
+   "lang_mi": {
+      "message": "Maori (Māori)"
+   },
+   "lang_mk": {
+      "message": "Makedonca (Македонски)"
+   },
+   "lang_ml": {
+      "message": "Malayalamca (മലയാളം)"
+   },
+   "lang_mn": {
+      "message": "Moğolca (Монгол)"
+   },
+   "lang_mr": {
+      "message": "Marathi (मराठी)"
+   },
+   "lang_ms": {
+      "message": "Malayca (Bahasa Melayu)"
+   },
+   "lang_mt": {
+      "message": "Maltaca (Malti)"
+   },
+   "lang_my": {
+      "message": "Birmanca (မြန်မာစာ)"
+   },
+   "lang_ne": {
+      "message": "Nepalce (नेपाली)"
+   },
+   "lang_nl": {
+      "message": "Felemenkçe (Nederlands)"
+   },
+   "lang_no": {
+      "message": "Norveçce (Norsk)"
+   },
+   "lang_ny": {
+      "message": "Çiçeva (Chichewa)"
+   },
+   "lang_pl": {
+      "message": "Lehçe (Polski)"
+   },
+   "lang_ps": {
+      "message": "Peştuca (پښتو)"
+   },
+   "lang_pt": {
+      "message": "Portekizce (Português)"
+   },
+   "lang_ro": {
+      "message": "Romence (Română)"
+   },
+   "lang_ru": {
+      "message": "Rusça (Русский)"
+   },
+   "lang_sd": {
+      "message": "Sindice (سنڌي)"
+   },
+   "lang_si": {
+      "message": "Sinhala (සිංහල)"
+   },
+   "lang_sk": {
+      "message": "Slovakça (Slovenčina)"
+   },
+   "lang_sl": {
+      "message": "Slovence (Slovenščina)"
+   },
+   "lang_sm": {
+      "message": "Samoca (Gagana Sāmoa)"
+   },
+   "lang_sn": {
+      "message": "Şona (ChiShona)"
+   },
+   "lang_so": {
+      "message": "Somalice (Soomaali)"
+   },
+   "lang_sq": {
+      "message": "Arnavutça (Shqip)"
+   },
+   "lang_sr": {
+      "message": "Sırpça (Српски)"
+   },
+   "lang_st": {
+      "message": "Sesotho (Sesotho)"
+   },
+   "lang_su": {
+      "message": "Sundaca (Basa Sunda)"
+   },
+   "lang_sv": {
+      "message": "İsveççe (Svenska)"
+   },
+   "lang_sw": {
+      "message": "Svahili (Kiswahili)"
+   },
+   "lang_ta": {
+      "message": "Tamilce (தமிழ்)"
+   },
+   "lang_te": {
+      "message": "Teluguca (తెలుగు)"
+   },
+   "lang_tg": {
+      "message": "Tacikçe (Тоҷикӣ)"
+   },
+   "lang_th": {
+      "message": "Tayca (ไทย)"
+   },
+   "lang_tl": {
+      "message": "Filipince (Filipino)"
+   },
+   "lang_tr": {
+      "message": "Türkçe"
+   },
+   "lang_uk": {
+      "message": "Ukraynaca (Українська)"
+   },
+   "lang_ur": {
+      "message": "Urduca (اردو)"
+   },
+   "lang_uz": {
+      "message": "Özbekçe (Oʻzbekcha)"
+   },
+   "lang_vi": {
+      "message": "Vietnamca (Tiếng Việt)"
+   },
+   "lang_xh": {
+      "message": "Xhosa (isiXhosa)"
+   },
+   "lang_yi": {
+      "message": "Yidiş (ייִדיש)"
+   },
+   "lang_yo": {
+      "message": "Yoruba (Yorùbá)"
+   },
+   "lang_zh_cn": {
+      "message": "Çince (Basitleştirilmiş) (简体中文)"
+   },
+   "lang_zh_tw": {
+      "message": "Çince (Geleneksel) (繁體中文)"
+   },
+   "lang_zu": {
+      "message": "Zuluca (isiZulu)"
+   },
+   "languageBlacklist": {
+      "description": "Label for the source-language blacklist selector",
+      "message": "Çeviri Kara Listesi"
+   },
+   "languageBlacklistDescription": {
+      "description": "Help text for the source-language blacklist selector",
+      "message": "Algılanan kaynak dili seçili dillerden biri olan gelen mesajlar çevrilmeyecek ve olduğu gibi gösterilecektir."
+   },
+   "logout": {
+      "message": "Çıkış Yap"
+   },
+   "manageSubscriptions": {
+      "message": "Abonelikleri yönet"
+   },
+   "messagesPerDay": {
+      "message": "Günde 30 mesaj"
+   },
+   "messengerTranslatorDescription": {
+      "message": "Messenger'da farklı diller arasında kolayca iletişim kurun"
+   },
+   "messengerTranslatorTitle": {
+      "message": "Messenger Translator Pro"
+   },
+   "modalUpgradeTitle": {
+      "message": "Yükselt"
+   },
+   "moneyBackGuarantee": {
+      "message": "7 GÜNLÜK PARA İADESİ GARANTİSİ"
+   },
+   "moreSettings": {
+      "message": "Daha Fazla Ayar"
+   },
+   "moreTools": {
+      "message": "Daha Fazla Araç"
+   },
+   "multipleTranslationEngines": {
+      "message": "Birden Fazla Çeviri Motoru"
+   },
+   "navGroupAdvanced": {
+      "description": "Options page sidebar nav item / card title for advanced settings (glossary, cache)",
+      "message": "Gelişmiş"
+   },
+   "navGroupAppearance": {
+      "description": "Options page sidebar nav item / card title for translation engine and appearance settings",
+      "message": "Motor ve Görünüm"
+   },
+   "navGroupInputTranslation": {
+      "description": "Options page sidebar nav item / card title for settings about translating your own input before sending",
+      "message": "Girdi Çevirisi"
+   },
+   "navGroupLanguages": {
+      "description": "Options page sidebar nav item / card title for the language-selection settings group",
+      "message": "Diller"
+   },
+   "navGroupMessageTranslation": {
+      "description": "Options page sidebar nav item / card title for settings about translating received messages",
+      "message": "Mesaj Çevirisi"
+   },
+   "plan": {
+      "message": "Plan:"
+   },
+   "refresh": {
+      "message": "Yenile"
+   },
+   "resetShortcuts": {
+      "message": "Sıfırla"
+   },
+   "retryTranslation": {
+      "message": "Yeniden dene"
+   },
+   "sendImmediately": {
+      "message": "Hemen Gönder"
+   },
+   "sendImmediatelyDescription": {
+      "message": "Etkinleştirilirse, kısayola basmak mesajınızı çevirip anında gönderir."
+   },
+   "sendImmediatelyDisabledHint": {
+      "message": "Bu seçeneği kullanmak için Çeviri Önizleme’yi açın."
+   },
+   "settingsTitle": {
+      "message": "Ayarlar"
+   },
+   "share": {
+      "description": "Label / tooltip for the share button that opens the share menu",
+      "message": "Paylaş"
+   },
+   "shareCopied": {
+      "description": "Confirmation shown on the share menu after the text and link are copied",
+      "message": "Kopyalandı!"
+   },
+   "shareCopyLink": {
+      "description": "Share menu item that copies the promo text and the extension store link to the clipboard",
+      "message": "Metni ve Bağlantıyı Kopyala"
+   },
+   "shareMessage": {
+      "description": "Promotional sentence used as the share text when sharing the extension via the share button (copied to clipboard and pre-filled into social share dialogs). The store link is appended automatically.",
+      "message": "Bu YouTube yorum çevirmenine bir göz at — yorumları otomatik olarak 100'den fazla dilde çevirir!"
+   },
+   "shareViaEmail": {
+      "description": "Share menu item that opens the user's email client to share the extension",
+      "message": "E-posta"
+   },
+   "shortcutsDescription": {
+      "message": "Girişinizdeki mesajı hızlıca çevirin ve değiştirin."
+   },
+   "shortcutsOneClickTranslation": {
+      "message": "Tek Tıkla Çeviri ve Gönderme Kısayolları"
+   },
+   "shortcutsTitle": {
+      "message": "Kısayollar"
+   },
+   "signInWithGoogle": {
+      "message": "Google ile Giriş Yap"
+   },
+   "skypeTranslatorDescription": {
+      "message": "Skype mesajlarınızı gerçek zamanlı olarak sorunsuzca çevirin"
+   },
+   "skypeTranslatorTitle": {
+      "message": "Skype Translator Pro"
+   },
+   "slackTranslatorDescription": {
+      "message": "Slack mesajlarını sorunsuzca çevirin"
+   },
+   "slackTranslatorTitle": {
+      "message": "Slack Translator Pro"
+   },
+   "snapchatTranslatorDescription": {
+      "message": "Snapchat'teki grup ve sohbet mesajlarınızı otomatik olarak çevirin"
+   },
+   "snapchatTranslatorTitle": {
+      "message": "Snapchat Translator Pro"
+   },
+   "supportOver100Languages": {
+      "message": "100'den Fazla Dil Desteği"
+   },
+   "telegramTranslatorDescription": {
+      "message": "Telegram sohbet ve gruplarındaki mesajları çevirin"
+   },
+   "telegramTranslatorTitle": {
+      "message": "Telegram Translator Pro"
+   },
+   "thankYouMessage": {
+      "message": "5 yıldızlı yorumlar bize güç veriyor! Desteğiniz için teşekkür ederiz!"
+   },
+   "translatedTextColor": {
+      "message": "Çevrilen Metin Rengi"
+   },
+   "translationEngine": {
+      "message": "Çeviri Motoru"
+   },
+   "translationFailed": {
+      "message": "Çeviri başarısız oldu"
+   },
+   "translationForum": {
+      "message": "Çeviri Forumu"
+   },
+   "translationForumDescription": {
+      "message": "Etkinleştirilirse, forum kanalının içeriği çevrilir."
+   },
+   "translationPreview": {
+      "message": "Çeviri Önizleme"
+   },
+   "translationPreviewDescription": {
+      "message": "Etkinleştirildiğinde, girdiğiniz içeriğe dayalı çevrilen içeriğin önizlemesi gerçek zamanlı olarak gösterilir ve çevirinizi önemli ölçüde iyileştirir."
+   },
+   "translationSwitch": {
+      "message": "Çeviri Anahtarı"
+   },
+   "translationSwitchDescription": {
+      "message": "Kapatıldıktan sonra program çalışmayı durduracak."
+   },
+   "twitchTranslatorDescription": {
+      "message": "Twitch yayınlarındaki sohbetleri çevirin"
+   },
+   "twitchTranslatorTitle": {
+      "message": "Twitch Translator Pro"
+   },
+   "unlimited": {
+      "message": "Sınırsız"
+   },
+   "upgrade": {
+      "message": "Yükselt"
+   },
+   "usageToday": {
+      "message": "Bugünkü Kullanım"
+   },
+   "useContactLanguage": {
+      "message": "Kişi Dilini Kullan"
+   },
+   "useContactLanguageDescriptionPart1": {
+      "message": "Etkinleştirilirse, alınan mesajların kaynak dili kişi diline ayarlanır."
+   },
+   "useContactLanguageDescriptionPart2": {
+      "message": "Varsayılan olarak, aldığınız mesajlar otomatik olarak algılanır ve kişi dili ayarı yalnızca giriş içeriğinin çevirisine uygulanır."
+   },
+   "userEmail": {
+      "message": "Kullanıcı E-postası:"
+   },
+   "userName": {
+      "message": "Kullanıcı Adı:"
+   },
+   "whatsappTranslatorDescription": {
+      "message": "WhatsApp konuşmalarındaki mesajları çevirin"
+   },
+   "whatsappTranslatorTitle": {
+      "message": "WhatsApp Translator Pro"
+   },
+   "yourLanguage": {
+      "message": "Diliniz"
+   },
+   "yourLanguageDescription": {
+      "message": "Aldığınız mesajların çevrileceği dil, genellikle ana dilinizdir."
+   }
+}

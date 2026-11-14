@@ -1,0 +1,642 @@
+{
+   "Buy": {
+      "message": "구독하기"
+   },
+   "Help": {
+      "message": "도움말"
+   },
+   "accountTitle": {
+      "message": "계정"
+   },
+   "addLanguage": {
+      "description": "Placeholder for the blacklist language picker (a compact dropdown used to add languages)",
+      "message": "언어 추가"
+   },
+   "addRule": {
+      "message": "+ 규칙 추가"
+   },
+   "autoTranslateIncomingMessages": {
+      "message": "수신 메시지 자동 번역"
+   },
+   "autoTranslateOutgoingMessages": {
+      "message": "발신 메시지 자동 번역"
+   },
+   "bilingualDisplay": {
+      "message": "이중 언어 표시"
+   },
+   "bilingualDisplayDescription": {
+      "message": "활성화하면 원문과 번역문이 함께 표시됩니다."
+   },
+   "changeShortcuts": {
+      "message": "단축키 변경"
+   },
+   "clearCacheDescription": {
+      "message": "모든 번역 내용이 지워집니다."
+   },
+   "clearCacheTitle": {
+      "message": "캐시 관리"
+   },
+   "colorReset": {
+      "message": "초기화"
+   },
+   "colorResetDescription": {
+      "message": "(적용하려면 페이지를 새로고침해야 합니다.)"
+   },
+   "contactLanguage": {
+      "message": "상대방 언어"
+   },
+   "contactLanguageDescription": {
+      "message": "보내는 메시지가 번역될 언어로, 일반적으로 상대방의 언어입니다."
+   },
+   "contactSupport": {
+      "message": "서비스 이용 중 문제가 발생하면\n            이메일로 직접 문의하실 수 있습니다"
+   },
+   "customTranslatorColor": {
+      "message": "번역기 색상 사용자 지정"
+   },
+   "discordTranslatorProDescription": {
+      "message": "Discord에서 직접 메시지를 번역합니다"
+   },
+   "discordTranslatorProTitle": {
+      "message": "Discord Translator Pro"
+   },
+   "expiryDate": {
+      "message": "만료일"
+   },
+   "extensionDescription": {
+      "description": "Extension description",
+      "message": "YouTube 댓글과 실시간 채팅을 자동으로 번역하며, 100개 이상의 언어를 지원합니다."
+   },
+   "extensionName": {
+      "description": "Extension name",
+      "message": "YouTube™ 댓글 번역 Pro - 몰입형 번역·이중 언어 자동 번역"
+   },
+   "extensionNameInExt": {
+      "description": "Extension name",
+      "message": " YouTube™ Comment Translator Pro"
+   },
+   "firstLoginFreeTrial": {
+      "message": "첫 로그인 시 1일 무료 체험이 즉시 제공됩니다"
+   },
+   "followBrowser": {
+      "description": "Option meaning the extension UI should follow the browser language",
+      "message": "자동"
+   },
+   "getFreeTrial": {
+      "message": "2일 무료 체험 받기!"
+   },
+   "getFreeTrialWithReview": {
+      "message": "별점 5점 리뷰를 남기시면 2일 무료 체험을 받으실 수 있습니다."
+   },
+   "getMoreFreeTrials": {
+      "message": "무료 체험 더 받기"
+   },
+   "giveUsFiveStarReview": {
+      "message": "별점 5점 리뷰 남기기"
+   },
+   "glossaryDescription": {
+      "message": "활성화하면 표에 따라 문장의 키워드를 검색하고 교체합니다."
+   },
+   "glossaryTitle": {
+      "message": "용어 사전"
+   },
+   "igTranslator": {
+      "message": "IG Translator"
+   },
+   "interfaceLanguage": {
+      "description": "Label for the UI language selector",
+      "message": "인터페이스 언어"
+   },
+   "interfaceLanguageDescription": {
+      "description": "Help text for the UI language selector",
+      "message": "이 확장 프로그램의 인터페이스(팝업 및 설정)에 사용되는 언어입니다. \"자동\"을 선택하면 브라우저 언어와 일치합니다."
+   },
+   "lang_af": {
+      "message": "아프리칸스어 (Afrikaans)"
+   },
+   "lang_am": {
+      "message": "암하라어 (አማርኛ)"
+   },
+   "lang_ar": {
+      "message": "아랍어 (العربية)"
+   },
+   "lang_auto": {
+      "message": "자동"
+   },
+   "lang_az": {
+      "message": "아제르바이잔어 (Azərbaycanca)"
+   },
+   "lang_be": {
+      "message": "벨라루스어 (Беларуская)"
+   },
+   "lang_bg": {
+      "message": "불가리아어 (Български)"
+   },
+   "lang_bn": {
+      "message": "벵골어 (বাংলা)"
+   },
+   "lang_bs": {
+      "message": "보스니아어 (Bosanski)"
+   },
+   "lang_ca": {
+      "message": "카탈루냐어 (Català)"
+   },
+   "lang_ceb": {
+      "message": "세부아노어 (Binisaya)"
+   },
+   "lang_co": {
+      "message": "코르시카어 (Corsu)"
+   },
+   "lang_cs": {
+      "message": "체코어 (Čeština)"
+   },
+   "lang_cy": {
+      "message": "웨일스어 (Cymraeg)"
+   },
+   "lang_da": {
+      "message": "덴마크어 (Dansk)"
+   },
+   "lang_de": {
+      "message": "독일어 (Deutsch)"
+   },
+   "lang_el": {
+      "message": "그리스어 (Ελληνικά)"
+   },
+   "lang_en": {
+      "message": "영어 (English)"
+   },
+   "lang_eo": {
+      "message": "에스페란토 (Esperanto)"
+   },
+   "lang_es": {
+      "message": "스페인어 (Español)"
+   },
+   "lang_et": {
+      "message": "에스토니아어 (Eesti)"
+   },
+   "lang_eu": {
+      "message": "바스크어 (Euskara)"
+   },
+   "lang_fa": {
+      "message": "페르시아어 (فارسی)"
+   },
+   "lang_fi": {
+      "message": "핀란드어 (Suomi)"
+   },
+   "lang_fr": {
+      "message": "프랑스어 (Français)"
+   },
+   "lang_fy": {
+      "message": "프리지아어 (Frysk)"
+   },
+   "lang_ga": {
+      "message": "아일랜드어 (Gaeilge)"
+   },
+   "lang_gd": {
+      "message": "스코틀랜드 게일어 (Gàidhlig)"
+   },
+   "lang_gl": {
+      "message": "갈리시아어 (Galego)"
+   },
+   "lang_gu": {
+      "message": "구자라트어 (ગુજરાતી)"
+   },
+   "lang_ha": {
+      "message": "하우사어 (Hausa)"
+   },
+   "lang_haw": {
+      "message": "하와이어 (ʻŌlelo Hawaiʻi)"
+   },
+   "lang_hi": {
+      "message": "힌디어 (हिन्दी)"
+   },
+   "lang_hmn": {
+      "message": "몽어 (Hmoob)"
+   },
+   "lang_hr": {
+      "message": "크로아티아어 (Hrvatski)"
+   },
+   "lang_ht": {
+      "message": "아이티 크레올어 (Kreyòl Ayisyen)"
+   },
+   "lang_hu": {
+      "message": "헝가리어 (Magyar)"
+   },
+   "lang_hy": {
+      "message": "아르메니아어 (Հայերեն)"
+   },
+   "lang_id": {
+      "message": "인도네시아어 (Bahasa Indonesia)"
+   },
+   "lang_ig": {
+      "message": "이그보어 (Igbo)"
+   },
+   "lang_is": {
+      "message": "아이슬란드어 (Íslenska)"
+   },
+   "lang_it": {
+      "message": "이탈리아어 (Italiano)"
+   },
+   "lang_iw": {
+      "message": "히브리어 (עברית)"
+   },
+   "lang_ja": {
+      "message": "일본어 (日本語)"
+   },
+   "lang_jw": {
+      "message": "자바어 (Basa Jawa)"
+   },
+   "lang_ka": {
+      "message": "조지아어 (ქართული)"
+   },
+   "lang_kk": {
+      "message": "카자흐어 (Қазақша)"
+   },
+   "lang_km": {
+      "message": "크메르어 (ខ្មែរ)"
+   },
+   "lang_kn": {
+      "message": "칸나다어 (ಕನ್ನಡ)"
+   },
+   "lang_ko": {
+      "message": "한국어"
+   },
+   "lang_ku": {
+      "message": "쿠르드어 (Kurdî)"
+   },
+   "lang_ky": {
+      "message": "키르기스어 (Кыргызча)"
+   },
+   "lang_la": {
+      "message": "라틴어 (Latina)"
+   },
+   "lang_lb": {
+      "message": "룩셈부르크어 (Lëtzebuergesch)"
+   },
+   "lang_lo": {
+      "message": "라오어 (ລາວ)"
+   },
+   "lang_lt": {
+      "message": "리투아니아어 (Lietuvių)"
+   },
+   "lang_lv": {
+      "message": "라트비아어 (Latviešu)"
+   },
+   "lang_ma": {
+      "message": "펀자브어 (ਪੰਜਾਬੀ)"
+   },
+   "lang_mg": {
+      "message": "마다가스카르어 (Malagasy)"
+   },
+   "lang_mi": {
+      "message": "마오리어 (Māori)"
+   },
+   "lang_mk": {
+      "message": "마케도니아어 (Македонски)"
+   },
+   "lang_ml": {
+      "message": "말라얄람어 (മലയാളം)"
+   },
+   "lang_mn": {
+      "message": "몽골어 (Монгол)"
+   },
+   "lang_mr": {
+      "message": "마라티어 (मराठी)"
+   },
+   "lang_ms": {
+      "message": "말레이어 (Bahasa Melayu)"
+   },
+   "lang_mt": {
+      "message": "몰타어 (Malti)"
+   },
+   "lang_my": {
+      "message": "미얀마어 (မြန်မာစာ)"
+   },
+   "lang_ne": {
+      "message": "네팔어 (नेपाली)"
+   },
+   "lang_nl": {
+      "message": "네덜란드어 (Nederlands)"
+   },
+   "lang_no": {
+      "message": "노르웨이어 (Norsk)"
+   },
+   "lang_ny": {
+      "message": "치체와어 (Chichewa)"
+   },
+   "lang_pl": {
+      "message": "폴란드어 (Polski)"
+   },
+   "lang_ps": {
+      "message": "파슈토어 (پښتو)"
+   },
+   "lang_pt": {
+      "message": "포르투갈어 (Português)"
+   },
+   "lang_ro": {
+      "message": "루마니아어 (Română)"
+   },
+   "lang_ru": {
+      "message": "러시아어 (Русский)"
+   },
+   "lang_sd": {
+      "message": "신디어 (سنڌي)"
+   },
+   "lang_si": {
+      "message": "신할라어 (සිංහල)"
+   },
+   "lang_sk": {
+      "message": "슬로바키아어 (Slovenčina)"
+   },
+   "lang_sl": {
+      "message": "슬로베니아어 (Slovenščina)"
+   },
+   "lang_sm": {
+      "message": "사모아어 (Gagana Sāmoa)"
+   },
+   "lang_sn": {
+      "message": "쇼나어 (ChiShona)"
+   },
+   "lang_so": {
+      "message": "소말리아어 (Soomaali)"
+   },
+   "lang_sq": {
+      "message": "알바니아어 (Shqip)"
+   },
+   "lang_sr": {
+      "message": "세르비아어 (Српски)"
+   },
+   "lang_st": {
+      "message": "세소토어 (Sesotho)"
+   },
+   "lang_su": {
+      "message": "순다어 (Basa Sunda)"
+   },
+   "lang_sv": {
+      "message": "스웨덴어 (Svenska)"
+   },
+   "lang_sw": {
+      "message": "스와힐리어 (Kiswahili)"
+   },
+   "lang_ta": {
+      "message": "타밀어 (தமிழ்)"
+   },
+   "lang_te": {
+      "message": "텔루구어 (తెలుగు)"
+   },
+   "lang_tg": {
+      "message": "타지크어 (Тоҷикӣ)"
+   },
+   "lang_th": {
+      "message": "태국어 (ไทย)"
+   },
+   "lang_tl": {
+      "message": "필리핀어 (Filipino)"
+   },
+   "lang_tr": {
+      "message": "터키어 (Türkçe)"
+   },
+   "lang_uk": {
+      "message": "우크라이나어 (Українська)"
+   },
+   "lang_ur": {
+      "message": "우르두어 (اردو)"
+   },
+   "lang_uz": {
+      "message": "우즈베크어 (Oʻzbekcha)"
+   },
+   "lang_vi": {
+      "message": "베트남어 (Tiếng Việt)"
+   },
+   "lang_xh": {
+      "message": "코사어 (isiXhosa)"
+   },
+   "lang_yi": {
+      "message": "이디시어 (ייִדיש)"
+   },
+   "lang_yo": {
+      "message": "요루바어 (Yorùbá)"
+   },
+   "lang_zh_cn": {
+      "message": "중국어 간체 (简体中文)"
+   },
+   "lang_zh_tw": {
+      "message": "중국어 번체 (繁體中文)"
+   },
+   "lang_zu": {
+      "message": "줄루어 (isiZulu)"
+   },
+   "languageBlacklist": {
+      "description": "Label for the source-language blacklist selector",
+      "message": "번역 차단 목록"
+   },
+   "languageBlacklistDescription": {
+      "description": "Help text for the source-language blacklist selector",
+      "message": "감지된 원본 언어가 선택한 언어 중 하나인 수신 메시지는 번역되지 않고 원문 그대로 표시됩니다."
+   },
+   "logout": {
+      "message": "로그아웃"
+   },
+   "manageSubscriptions": {
+      "message": "구독 관리"
+   },
+   "messagesPerDay": {
+      "message": "30 메시지/일"
+   },
+   "messengerTranslatorDescription": {
+      "message": "Messenger에서 다양한 언어로 쉽게 소통합니다"
+   },
+   "messengerTranslatorTitle": {
+      "message": "Messenger Translator Pro"
+   },
+   "modalUpgradeTitle": {
+      "message": "업그레이드"
+   },
+   "moneyBackGuarantee": {
+      "message": "7일 환불 보장"
+   },
+   "moreSettings": {
+      "message": "추가 설정"
+   },
+   "moreTools": {
+      "message": "더 많은 도구"
+   },
+   "multipleTranslationEngines": {
+      "message": "다양한 번역 엔진"
+   },
+   "navGroupAdvanced": {
+      "description": "Options page sidebar nav item / card title for advanced settings (glossary, cache)",
+      "message": "고급"
+   },
+   "navGroupAppearance": {
+      "description": "Options page sidebar nav item / card title for translation engine and appearance settings",
+      "message": "엔진 및 외관"
+   },
+   "navGroupInputTranslation": {
+      "description": "Options page sidebar nav item / card title for settings about translating your own input before sending",
+      "message": "입력 번역"
+   },
+   "navGroupLanguages": {
+      "description": "Options page sidebar nav item / card title for the language-selection settings group",
+      "message": "언어"
+   },
+   "navGroupMessageTranslation": {
+      "description": "Options page sidebar nav item / card title for settings about translating received messages",
+      "message": "메시지 번역"
+   },
+   "plan": {
+      "message": "플랜:"
+   },
+   "refresh": {
+      "message": "새로고침"
+   },
+   "resetShortcuts": {
+      "message": "초기화"
+   },
+   "retryTranslation": {
+      "message": "다시 시도"
+   },
+   "sendImmediately": {
+      "message": "즉시 전송"
+   },
+   "sendImmediatelyDescription": {
+      "message": "활성화하면 단축키를 누를 때 메시지를 번역하고 즉시 전송합니다."
+   },
+   "sendImmediatelyDisabledHint": {
+      "message": "이 옵션을 사용하려면 번역 미리보기를 켜세요."
+   },
+   "settingsTitle": {
+      "message": "설정"
+   },
+   "share": {
+      "description": "Label / tooltip for the share button that opens the share menu",
+      "message": "공유"
+   },
+   "shareCopied": {
+      "description": "Confirmation shown on the share menu after the text and link are copied",
+      "message": "복사됨!"
+   },
+   "shareCopyLink": {
+      "description": "Share menu item that copies the promo text and the extension store link to the clipboard",
+      "message": "텍스트 및 링크 복사"
+   },
+   "shareMessage": {
+      "description": "Promotional sentence used as the share text when sharing the extension via the share button (copied to clipboard and pre-filled into social share dialogs). The store link is appended automatically.",
+      "message": "이 YouTube 댓글 번역기를 확인해 보세요 — 100개 이상의 언어로 댓글을 자동으로 번역합니다!"
+   },
+   "shareViaEmail": {
+      "description": "Share menu item that opens the user's email client to share the extension",
+      "message": "이메일"
+   },
+   "shortcutsDescription": {
+      "message": "입력 시 메시지를 빠르게 번역하고 교체합니다."
+   },
+   "shortcutsOneClickTranslation": {
+      "message": "원클릭 번역 및 전송 단축키"
+   },
+   "shortcutsTitle": {
+      "message": "단축키"
+   },
+   "signInWithGoogle": {
+      "message": "Google로 로그인"
+   },
+   "skypeTranslatorDescription": {
+      "message": "Skype 메시지를 실시간으로 원활하게 번역합니다"
+   },
+   "skypeTranslatorTitle": {
+      "message": "Skype Translator Pro"
+   },
+   "slackTranslatorDescription": {
+      "message": "Slack 메시지를 원활하게 번역합니다"
+   },
+   "slackTranslatorTitle": {
+      "message": "Slack Translator Pro"
+   },
+   "snapchatTranslatorDescription": {
+      "message": "Snapchat의 그룹 및 채팅 메시지를 자동으로 번역합니다"
+   },
+   "snapchatTranslatorTitle": {
+      "message": "Snapchat Translator Pro"
+   },
+   "supportOver100Languages": {
+      "message": "100개 이상의 언어 지원"
+   },
+   "telegramTranslatorDescription": {
+      "message": "Telegram 채팅 및 그룹의 메시지를 번역합니다"
+   },
+   "telegramTranslatorTitle": {
+      "message": "Telegram Translator Pro"
+   },
+   "thankYouMessage": {
+      "message": "별점 5점 리뷰가 저희에게 큰 힘이 됩니다! 응원해 주셔서 감사합니다!"
+   },
+   "translatedTextColor": {
+      "message": "번역 텍스트 색상"
+   },
+   "translationEngine": {
+      "message": "번역 엔진"
+   },
+   "translationFailed": {
+      "message": "번역 실패"
+   },
+   "translationForum": {
+      "message": "포럼 번역"
+   },
+   "translationForumDescription": {
+      "message": "활성화하면 포럼 채널의 내용이 번역됩니다."
+   },
+   "translationPreview": {
+      "message": "번역 미리보기"
+   },
+   "translationPreviewDescription": {
+      "message": "활성화하면 입력 내용을 기반으로 번역된 내용이 실시간으로 미리 표시되어 번역 품질이 크게 향상됩니다."
+   },
+   "translationSwitch": {
+      "message": "번역 스위치"
+   },
+   "translationSwitchDescription": {
+      "message": "끄면 프로그램이 작동을 멈춥니다."
+   },
+   "twitchTranslatorDescription": {
+      "message": "Twitch 스트림의 채팅을 번역합니다"
+   },
+   "twitchTranslatorTitle": {
+      "message": "Twitch Translator Pro"
+   },
+   "unlimited": {
+      "message": "무제한"
+   },
+   "upgrade": {
+      "message": "업그레이드"
+   },
+   "usageToday": {
+      "message": "오늘 사용량"
+   },
+   "useContactLanguage": {
+      "message": "상대방 언어 사용"
+   },
+   "useContactLanguageDescriptionPart1": {
+      "message": "활성화하면 수신 메시지의 원본 언어가 상대방 언어로 설정됩니다."
+   },
+   "useContactLanguageDescriptionPart2": {
+      "message": "기본적으로 수신 메시지는 자동 감지되며, 상대방 언어 설정은 입력 내용 번역에만 적용됩니다."
+   },
+   "userEmail": {
+      "message": "사용자 이메일:"
+   },
+   "userName": {
+      "message": "사용자 이름:"
+   },
+   "whatsappTranslatorDescription": {
+      "message": "WhatsApp 대화의 메시지를 번역합니다"
+   },
+   "whatsappTranslatorTitle": {
+      "message": "WhatsApp Translator Pro"
+   },
+   "yourLanguage": {
+      "message": "내 언어"
+   },
+   "yourLanguageDescription": {
+      "message": "수신하는 메시지가 번역될 언어로, 일반적으로 모국어입니다."
+   }
+}

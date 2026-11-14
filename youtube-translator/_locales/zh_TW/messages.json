@@ -1,0 +1,642 @@
+{
+   "Buy": {
+      "message": "訂閱"
+   },
+   "Help": {
+      "message": "說明"
+   },
+   "accountTitle": {
+      "message": "帳號"
+   },
+   "addLanguage": {
+      "description": "Placeholder for the blacklist language picker (a compact dropdown used to add languages)",
+      "message": "新增語言"
+   },
+   "addRule": {
+      "message": "+ 新增規則"
+   },
+   "autoTranslateIncomingMessages": {
+      "message": "自動翻譯收到的訊息"
+   },
+   "autoTranslateOutgoingMessages": {
+      "message": "自動翻譯傳送的訊息"
+   },
+   "bilingualDisplay": {
+      "message": "雙語顯示"
+   },
+   "bilingualDisplayDescription": {
+      "message": "開啟後，將同時顯示雙語內容（翻譯文字與原文並排呈現）。"
+   },
+   "changeShortcuts": {
+      "message": "變更快捷鍵"
+   },
+   "clearCacheDescription": {
+      "message": "所有翻譯內容將被清除。"
+   },
+   "clearCacheTitle": {
+      "message": "快取管理"
+   },
+   "colorReset": {
+      "message": "重設"
+   },
+   "colorResetDescription": {
+      "message": "（需重新載入頁面才能生效。）"
+   },
+   "contactLanguage": {
+      "message": "聯絡人語言"
+   },
+   "contactLanguageDescription": {
+      "message": "您發送的訊息將被翻譯成的語言，通常是對方所使用的語言。"
+   },
+   "contactSupport": {
+      "message": "若您在使用我們的服務時遇到任何問題，您可以\n            直接透過電子郵件聯繫我們"
+   },
+   "customTranslatorColor": {
+      "message": "自訂翻譯文字顏色"
+   },
+   "discordTranslatorProDescription": {
+      "message": "直接在 Discord 中翻譯訊息"
+   },
+   "discordTranslatorProTitle": {
+      "message": "Discord Translator Pro"
+   },
+   "expiryDate": {
+      "message": "到期日"
+   },
+   "extensionDescription": {
+      "description": "Extension description",
+      "message": "自動翻譯 YouTube 留言與直播聊天，支援超過 100 種語言。"
+   },
+   "extensionName": {
+      "description": "Extension name",
+      "message": "YouTube™ 留言翻譯 Pro - 沉浸式翻譯·雙語對照·即時自動翻譯"
+   },
+   "extensionNameInExt": {
+      "description": "Extension name",
+      "message": " YouTube™ Comment Translator Pro"
+   },
+   "firstLoginFreeTrial": {
+      "message": "首次登入後，您將立即獲得 1 天免費試用"
+   },
+   "followBrowser": {
+      "description": "Option meaning the extension UI should follow the browser language",
+      "message": "自動"
+   },
+   "getFreeTrial": {
+      "message": "獲得 2 天免費試用！"
+   },
+   "getFreeTrialWithReview": {
+      "message": "給我們 5 星評價，即可獲得 2 天免費試用。"
+   },
+   "getMoreFreeTrials": {
+      "message": "獲得更多免費試用"
+   },
+   "giveUsFiveStarReview": {
+      "message": "給我們 5 星評價"
+   },
+   "glossaryDescription": {
+      "message": "啟用後，此功能將根據表格中的內容擷取並取代句子中的關鍵字。"
+   },
+   "glossaryTitle": {
+      "message": "詞彙表"
+   },
+   "igTranslator": {
+      "message": "IG Translator"
+   },
+   "interfaceLanguage": {
+      "description": "Label for the UI language selector",
+      "message": "介面語言"
+   },
+   "interfaceLanguageDescription": {
+      "description": "Help text for the UI language selector",
+      "message": "此擴充功能本身介面（快顯視窗與設定）所使用的語言。選擇「自動」可與您的瀏覽器語言保持一致。"
+   },
+   "lang_af": {
+      "message": "南非荷蘭文 (Afrikaans)"
+   },
+   "lang_am": {
+      "message": "阿姆哈拉文 (አማርኛ)"
+   },
+   "lang_ar": {
+      "message": "阿拉伯文 (العربية)"
+   },
+   "lang_auto": {
+      "message": "自動"
+   },
+   "lang_az": {
+      "message": "亞塞拜然文 (Azərbaycanca)"
+   },
+   "lang_be": {
+      "message": "白俄羅斯文 (Беларуская)"
+   },
+   "lang_bg": {
+      "message": "保加利亞文 (Български)"
+   },
+   "lang_bn": {
+      "message": "孟加拉文 (বাংলা)"
+   },
+   "lang_bs": {
+      "message": "波士尼亞文 (Bosanski)"
+   },
+   "lang_ca": {
+      "message": "加泰隆尼亞文 (Català)"
+   },
+   "lang_ceb": {
+      "message": "宿霧文 (Binisaya)"
+   },
+   "lang_co": {
+      "message": "科西嘉文 (Corsu)"
+   },
+   "lang_cs": {
+      "message": "捷克文 (Čeština)"
+   },
+   "lang_cy": {
+      "message": "威爾斯文 (Cymraeg)"
+   },
+   "lang_da": {
+      "message": "丹麥文 (Dansk)"
+   },
+   "lang_de": {
+      "message": "德文 (Deutsch)"
+   },
+   "lang_el": {
+      "message": "希臘文 (Ελληνικά)"
+   },
+   "lang_en": {
+      "message": "英文 (English)"
+   },
+   "lang_eo": {
+      "message": "世界語 (Esperanto)"
+   },
+   "lang_es": {
+      "message": "西班牙文 (Español)"
+   },
+   "lang_et": {
+      "message": "愛沙尼亞文 (Eesti)"
+   },
+   "lang_eu": {
+      "message": "巴斯克文 (Euskara)"
+   },
+   "lang_fa": {
+      "message": "波斯文 (فارسی)"
+   },
+   "lang_fi": {
+      "message": "芬蘭文 (Suomi)"
+   },
+   "lang_fr": {
+      "message": "法文 (Français)"
+   },
+   "lang_fy": {
+      "message": "弗里西亞文 (Frysk)"
+   },
+   "lang_ga": {
+      "message": "愛爾蘭文 (Gaeilge)"
+   },
+   "lang_gd": {
+      "message": "蘇格蘭蓋爾文 (Gàidhlig)"
+   },
+   "lang_gl": {
+      "message": "加利西亞文 (Galego)"
+   },
+   "lang_gu": {
+      "message": "古吉拉特文 (ગુજરાતી)"
+   },
+   "lang_ha": {
+      "message": "豪薩文 (Hausa)"
+   },
+   "lang_haw": {
+      "message": "夏威夷文 (ʻŌlelo Hawaiʻi)"
+   },
+   "lang_hi": {
+      "message": "印地文 (हिन्दी)"
+   },
+   "lang_hmn": {
+      "message": "苗文 (Hmoob)"
+   },
+   "lang_hr": {
+      "message": "克羅埃西亞文 (Hrvatski)"
+   },
+   "lang_ht": {
+      "message": "海地克里奧爾文 (Kreyòl Ayisyen)"
+   },
+   "lang_hu": {
+      "message": "匈牙利文 (Magyar)"
+   },
+   "lang_hy": {
+      "message": "亞美尼亞文 (Հայերեն)"
+   },
+   "lang_id": {
+      "message": "印尼文 (Bahasa Indonesia)"
+   },
+   "lang_ig": {
+      "message": "伊博文 (Igbo)"
+   },
+   "lang_is": {
+      "message": "冰島文 (Íslenska)"
+   },
+   "lang_it": {
+      "message": "義大利文 (Italiano)"
+   },
+   "lang_iw": {
+      "message": "希伯來文 (עברית)"
+   },
+   "lang_ja": {
+      "message": "日文 (日本語)"
+   },
+   "lang_jw": {
+      "message": "爪哇文 (Basa Jawa)"
+   },
+   "lang_ka": {
+      "message": "喬治亞文 (ქართული)"
+   },
+   "lang_kk": {
+      "message": "哈薩克文 (Қазақша)"
+   },
+   "lang_km": {
+      "message": "高棉文 (ខ្មែរ)"
+   },
+   "lang_kn": {
+      "message": "坎那達文 (ಕನ್ನಡ)"
+   },
+   "lang_ko": {
+      "message": "韓文 (한국어)"
+   },
+   "lang_ku": {
+      "message": "庫德文 (Kurmanji) (Kurdî)"
+   },
+   "lang_ky": {
+      "message": "吉爾吉斯文 (Кыргызча)"
+   },
+   "lang_la": {
+      "message": "拉丁文 (Latina)"
+   },
+   "lang_lb": {
+      "message": "盧森堡文 (Lëtzebuergesch)"
+   },
+   "lang_lo": {
+      "message": "寮文 (ລາວ)"
+   },
+   "lang_lt": {
+      "message": "立陶宛文 (Lietuvių)"
+   },
+   "lang_lv": {
+      "message": "拉脫維亞文 (Latviešu)"
+   },
+   "lang_ma": {
+      "message": "旁遮普文 (ਪੰਜਾਬੀ)"
+   },
+   "lang_mg": {
+      "message": "馬拉加斯文 (Malagasy)"
+   },
+   "lang_mi": {
+      "message": "毛利文 (Māori)"
+   },
+   "lang_mk": {
+      "message": "馬其頓文 (Македонски)"
+   },
+   "lang_ml": {
+      "message": "馬拉雅拉姆文 (മലയാളം)"
+   },
+   "lang_mn": {
+      "message": "蒙古文 (Монгол)"
+   },
+   "lang_mr": {
+      "message": "馬拉地文 (मराठी)"
+   },
+   "lang_ms": {
+      "message": "馬來文 (Bahasa Melayu)"
+   },
+   "lang_mt": {
+      "message": "馬爾他文 (Malti)"
+   },
+   "lang_my": {
+      "message": "緬甸文 (မြန်မာစာ)"
+   },
+   "lang_ne": {
+      "message": "尼泊爾文 (नेपाली)"
+   },
+   "lang_nl": {
+      "message": "荷蘭文 (Nederlands)"
+   },
+   "lang_no": {
+      "message": "挪威文 (Norsk)"
+   },
+   "lang_ny": {
+      "message": "齊切瓦文 (Chichewa)"
+   },
+   "lang_pl": {
+      "message": "波蘭文 (Polski)"
+   },
+   "lang_ps": {
+      "message": "普什圖文 (پښتو)"
+   },
+   "lang_pt": {
+      "message": "葡萄牙文 (Português)"
+   },
+   "lang_ro": {
+      "message": "羅馬尼亞文 (Română)"
+   },
+   "lang_ru": {
+      "message": "俄文 (Русский)"
+   },
+   "lang_sd": {
+      "message": "信德文 (سنڌي)"
+   },
+   "lang_si": {
+      "message": "僧伽羅文 (සිංහල)"
+   },
+   "lang_sk": {
+      "message": "斯洛伐克文 (Slovenčina)"
+   },
+   "lang_sl": {
+      "message": "斯洛維尼亞文 (Slovenščina)"
+   },
+   "lang_sm": {
+      "message": "薩摩亞文 (Gagana Sāmoa)"
+   },
+   "lang_sn": {
+      "message": "紹納文 (ChiShona)"
+   },
+   "lang_so": {
+      "message": "索馬利文 (Soomaali)"
+   },
+   "lang_sq": {
+      "message": "阿爾巴尼亞文 (Shqip)"
+   },
+   "lang_sr": {
+      "message": "塞爾維亞文 (Српски)"
+   },
+   "lang_st": {
+      "message": "索托文 (Sesotho)"
+   },
+   "lang_su": {
+      "message": "巽他文 (Basa Sunda)"
+   },
+   "lang_sv": {
+      "message": "瑞典文 (Svenska)"
+   },
+   "lang_sw": {
+      "message": "斯瓦希里文 (Kiswahili)"
+   },
+   "lang_ta": {
+      "message": "坦米爾文 (தமிழ்)"
+   },
+   "lang_te": {
+      "message": "泰盧固文 (తెలుగు)"
+   },
+   "lang_tg": {
+      "message": "塔吉克文 (Тоҷикӣ)"
+   },
+   "lang_th": {
+      "message": "泰文 (ไทย)"
+   },
+   "lang_tl": {
+      "message": "菲律賓文 (Filipino)"
+   },
+   "lang_tr": {
+      "message": "土耳其文 (Türkçe)"
+   },
+   "lang_uk": {
+      "message": "烏克蘭文 (Українська)"
+   },
+   "lang_ur": {
+      "message": "烏爾都文 (اردو)"
+   },
+   "lang_uz": {
+      "message": "烏茲別克文 (Oʻzbekcha)"
+   },
+   "lang_vi": {
+      "message": "越南文 (Tiếng Việt)"
+   },
+   "lang_xh": {
+      "message": "科薩文 (isiXhosa)"
+   },
+   "lang_yi": {
+      "message": "意第緒文 (ייִדיש)"
+   },
+   "lang_yo": {
+      "message": "約魯巴文 (Yorùbá)"
+   },
+   "lang_zh_cn": {
+      "message": "簡體中文 (简体中文)"
+   },
+   "lang_zh_tw": {
+      "message": "繁體中文"
+   },
+   "lang_zu": {
+      "message": "祖魯文 (isiZulu)"
+   },
+   "languageBlacklist": {
+      "description": "Label for the source-language blacklist selector",
+      "message": "翻譯黑名單"
+   },
+   "languageBlacklistDescription": {
+      "description": "Help text for the source-language blacklist selector",
+      "message": "若收到的訊息偵測到的來源語言屬於已選取的語言之一，該訊息將不會被翻譯，並以原文顯示。"
+   },
+   "logout": {
+      "message": "登出"
+   },
+   "manageSubscriptions": {
+      "message": "管理訂閱"
+   },
+   "messagesPerDay": {
+      "message": "每日 30 則訊息"
+   },
+   "messengerTranslatorDescription": {
+      "message": "在 Messenger 中輕鬆跨語言溝通"
+   },
+   "messengerTranslatorTitle": {
+      "message": "Messenger Translator Pro"
+   },
+   "modalUpgradeTitle": {
+      "message": "升級"
+   },
+   "moneyBackGuarantee": {
+      "message": "7 天退款保證"
+   },
+   "moreSettings": {
+      "message": "更多設定"
+   },
+   "moreTools": {
+      "message": "更多工具"
+   },
+   "multipleTranslationEngines": {
+      "message": "多種翻譯引擎"
+   },
+   "navGroupAdvanced": {
+      "description": "Options page sidebar nav item / card title for advanced settings (glossary, cache)",
+      "message": "進階設定"
+   },
+   "navGroupAppearance": {
+      "description": "Options page sidebar nav item / card title for translation engine and appearance settings",
+      "message": "引擎與外觀"
+   },
+   "navGroupInputTranslation": {
+      "description": "Options page sidebar nav item / card title for settings about translating your own input before sending",
+      "message": "輸入翻譯"
+   },
+   "navGroupLanguages": {
+      "description": "Options page sidebar nav item / card title for the language-selection settings group",
+      "message": "語言"
+   },
+   "navGroupMessageTranslation": {
+      "description": "Options page sidebar nav item / card title for settings about translating received messages",
+      "message": "訊息翻譯"
+   },
+   "plan": {
+      "message": "方案："
+   },
+   "refresh": {
+      "message": "重新整理"
+   },
+   "resetShortcuts": {
+      "message": "重設"
+   },
+   "retryTranslation": {
+      "message": "重試"
+   },
+   "sendImmediately": {
+      "message": "立即傳送"
+   },
+   "sendImmediatelyDescription": {
+      "message": "啟用後，按下快捷鍵將翻譯您的訊息並立即傳送。"
+   },
+   "sendImmediatelyDisabledHint": {
+      "message": "開啟翻譯預覽後即可使用此選項。"
+   },
+   "settingsTitle": {
+      "message": "設定"
+   },
+   "share": {
+      "description": "Label / tooltip for the share button that opens the share menu",
+      "message": "分享"
+   },
+   "shareCopied": {
+      "description": "Confirmation shown on the share menu after the text and link are copied",
+      "message": "已複製！"
+   },
+   "shareCopyLink": {
+      "description": "Share menu item that copies the promo text and the extension store link to the clipboard",
+      "message": "複製文字與連結"
+   },
+   "shareMessage": {
+      "description": "Promotional sentence used as the share text when sharing the extension via the share button (copied to clipboard and pre-filled into social share dialogs). The store link is appended automatically.",
+      "message": "快來看看這個 YouTube 留言翻譯工具——它能自動將留言翻譯成 100+ 種語言！"
+   },
+   "shareViaEmail": {
+      "description": "Share menu item that opens the user's email client to share the extension",
+      "message": "電子郵件"
+   },
+   "shortcutsDescription": {
+      "message": "快速翻譯並取代輸入框中的訊息。"
+   },
+   "shortcutsOneClickTranslation": {
+      "message": "一鍵翻譯並傳送的快捷鍵"
+   },
+   "shortcutsTitle": {
+      "message": "快捷鍵"
+   },
+   "signInWithGoogle": {
+      "message": "使用 Google 登入"
+   },
+   "skypeTranslatorDescription": {
+      "message": "即時無縫翻譯您的 Skype 訊息"
+   },
+   "skypeTranslatorTitle": {
+      "message": "Skype Translator Pro"
+   },
+   "slackTranslatorDescription": {
+      "message": "無縫翻譯 Slack 訊息"
+   },
+   "slackTranslatorTitle": {
+      "message": "Slack Translator Pro"
+   },
+   "snapchatTranslatorDescription": {
+      "message": "自動翻譯 Snapchat 中的群組與聊天訊息"
+   },
+   "snapchatTranslatorTitle": {
+      "message": "Snapchat Translator Pro"
+   },
+   "supportOver100Languages": {
+      "message": "支援超過 100 種語言"
+   },
+   "telegramTranslatorDescription": {
+      "message": "翻譯 Telegram 聊天室與群組中的訊息"
+   },
+   "telegramTranslatorTitle": {
+      "message": "Telegram Translator Pro"
+   },
+   "thankYouMessage": {
+      "message": "5 星評價是我們前進的動力！感謝您的支持！"
+   },
+   "translatedTextColor": {
+      "message": "翻譯文字顏色"
+   },
+   "translationEngine": {
+      "message": "翻譯引擎"
+   },
+   "translationFailed": {
+      "message": "翻譯失敗"
+   },
+   "translationForum": {
+      "message": "翻譯論壇"
+   },
+   "translationForumDescription": {
+      "message": "啟用後，論壇頻道的內容將被翻譯。"
+   },
+   "translationPreview": {
+      "message": "翻譯預覽"
+   },
+   "translationPreviewDescription": {
+      "message": "啟用後，將根據您輸入的內容即時顯示翻譯預覽，大幅提升翻譯品質。"
+   },
+   "translationSwitch": {
+      "message": "翻譯開關"
+   },
+   "translationSwitchDescription": {
+      "message": "關閉後，程式將停止運作。"
+   },
+   "twitchTranslatorDescription": {
+      "message": "翻譯 Twitch 直播中的聊天訊息"
+   },
+   "twitchTranslatorTitle": {
+      "message": "Twitch Translator Pro"
+   },
+   "unlimited": {
+      "message": "無限制"
+   },
+   "upgrade": {
+      "message": "升級"
+   },
+   "usageToday": {
+      "message": "今日使用量"
+   },
+   "useContactLanguage": {
+      "message": "使用聯絡人語言"
+   },
+   "useContactLanguageDescriptionPart1": {
+      "message": "啟用後，收到的訊息來源語言將設定為聯絡人語言。"
+   },
+   "useContactLanguageDescriptionPart2": {
+      "message": "預設情況下，您收到的訊息將自動偵測語言，聯絡人語言設定僅適用於輸入內容的翻譯。"
+   },
+   "userEmail": {
+      "message": "使用者信箱："
+   },
+   "userName": {
+      "message": "使用者名稱："
+   },
+   "whatsappTranslatorDescription": {
+      "message": "翻譯 WhatsApp 對話中的訊息"
+   },
+   "whatsappTranslatorTitle": {
+      "message": "WhatsApp Translator Pro"
+   },
+   "yourLanguage": {
+      "message": "您的語言"
+   },
+   "yourLanguageDescription": {
+      "message": "您收到的訊息將被翻譯成的語言，通常是您的母語。"
+   }
+}

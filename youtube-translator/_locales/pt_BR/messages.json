@@ -1,0 +1,642 @@
+{
+   "Buy": {
+      "message": "Assinar"
+   },
+   "Help": {
+      "message": "Ajuda"
+   },
+   "accountTitle": {
+      "message": "Conta"
+   },
+   "addLanguage": {
+      "description": "Placeholder for the blacklist language picker (a compact dropdown used to add languages)",
+      "message": "Adicionar idioma"
+   },
+   "addRule": {
+      "message": "+ Adicionar Regra"
+   },
+   "autoTranslateIncomingMessages": {
+      "message": "Traduzir Automaticamente Mensagens Recebidas"
+   },
+   "autoTranslateOutgoingMessages": {
+      "message": "Traduzir Automaticamente Mensagens Enviadas"
+   },
+   "bilingualDisplay": {
+      "message": "Exibição Bilíngue"
+   },
+   "bilingualDisplayDescription": {
+      "message": "Quando ativado, o conteúdo bilíngue será exibido (com a tradução ao lado do texto original)."
+   },
+   "changeShortcuts": {
+      "message": "Alterar Atalhos"
+   },
+   "clearCacheDescription": {
+      "message": "Todo o conteúdo de tradução será removido."
+   },
+   "clearCacheTitle": {
+      "message": "Gerenciamento de Cache"
+   },
+   "colorReset": {
+      "message": "Redefinir"
+   },
+   "colorResetDescription": {
+      "message": "(É necessário recarregar as páginas para aplicar a alteração.)"
+   },
+   "contactLanguage": {
+      "message": "Idioma do Contato"
+   },
+   "contactLanguageDescription": {
+      "message": "O idioma para o qual as mensagens enviadas serão traduzidas, geralmente o idioma da outra parte."
+   },
+   "contactSupport": {
+      "message": "Se você encontrar algum problema ao usar nossos serviços, pode\n            entrar em contato conosco diretamente por e-mail"
+   },
+   "customTranslatorColor": {
+      "message": "Cor Personalizada do Tradutor"
+   },
+   "discordTranslatorProDescription": {
+      "message": "Traduza mensagens diretamente no Discord"
+   },
+   "discordTranslatorProTitle": {
+      "message": "Discord Translator Pro"
+   },
+   "expiryDate": {
+      "message": "Data de Validade"
+   },
+   "extensionDescription": {
+      "description": "Extension description",
+      "message": "Traduza automaticamente comentários e chats ao vivo do YouTube, com suporte a mais de 100 idiomas."
+   },
+   "extensionName": {
+      "description": "Extension name",
+      "message": "Tradutor de Comentários do YouTube™ Pro - Tradução Bilíngue e Imersiva"
+   },
+   "extensionNameInExt": {
+      "description": "Extension name",
+      "message": " YouTube™ Comment Translator Pro"
+   },
+   "firstLoginFreeTrial": {
+      "message": "No seu primeiro acesso, você receberá imediatamente 1 dia de teste grátis"
+   },
+   "followBrowser": {
+      "description": "Option meaning the extension UI should follow the browser language",
+      "message": "Automático"
+   },
+   "getFreeTrial": {
+      "message": "Obtenha 2 Dias de Teste Grátis!"
+   },
+   "getFreeTrialWithReview": {
+      "message": "Ao nos deixar uma avaliação de 5 estrelas, você ganha 2 dias de teste grátis."
+   },
+   "getMoreFreeTrials": {
+      "message": "Obter Mais Dias de Teste Grátis"
+   },
+   "giveUsFiveStarReview": {
+      "message": "Nos Dê uma Avaliação de 5 Estrelas"
+   },
+   "glossaryDescription": {
+      "message": "Quando ativado, a função irá recuperar e substituir palavras-chave na frase com base na tabela."
+   },
+   "glossaryTitle": {
+      "message": "Glossário"
+   },
+   "igTranslator": {
+      "message": "IG Translator"
+   },
+   "interfaceLanguage": {
+      "description": "Label for the UI language selector",
+      "message": "Idioma da Interface"
+   },
+   "interfaceLanguageDescription": {
+      "description": "Help text for the UI language selector",
+      "message": "O idioma usado na interface desta extensão (popup e configurações). Escolha \"Automático\" para usar o idioma do seu navegador."
+   },
+   "lang_af": {
+      "message": "Africâner (Afrikaans)"
+   },
+   "lang_am": {
+      "message": "Amárico (አማርኛ)"
+   },
+   "lang_ar": {
+      "message": "Árabe (العربية)"
+   },
+   "lang_auto": {
+      "message": "Automático"
+   },
+   "lang_az": {
+      "message": "Azerbaijano (Azərbaycanca)"
+   },
+   "lang_be": {
+      "message": "Bielorrusso (Беларуская)"
+   },
+   "lang_bg": {
+      "message": "Búlgaro (Български)"
+   },
+   "lang_bn": {
+      "message": "Bengali (বাংলা)"
+   },
+   "lang_bs": {
+      "message": "Bósnio (Bosanski)"
+   },
+   "lang_ca": {
+      "message": "Catalão (Català)"
+   },
+   "lang_ceb": {
+      "message": "Cebuano (Binisaya)"
+   },
+   "lang_co": {
+      "message": "Corso (Corsu)"
+   },
+   "lang_cs": {
+      "message": "Tcheco (Čeština)"
+   },
+   "lang_cy": {
+      "message": "Galês (Cymraeg)"
+   },
+   "lang_da": {
+      "message": "Dinamarquês (Dansk)"
+   },
+   "lang_de": {
+      "message": "Alemão (Deutsch)"
+   },
+   "lang_el": {
+      "message": "Grego (Ελληνικά)"
+   },
+   "lang_en": {
+      "message": "Inglês (English)"
+   },
+   "lang_eo": {
+      "message": "Esperanto"
+   },
+   "lang_es": {
+      "message": "Espanhol (Español)"
+   },
+   "lang_et": {
+      "message": "Estoniano (Eesti)"
+   },
+   "lang_eu": {
+      "message": "Basco (Euskara)"
+   },
+   "lang_fa": {
+      "message": "Persa (فارسی)"
+   },
+   "lang_fi": {
+      "message": "Finlandês (Suomi)"
+   },
+   "lang_fr": {
+      "message": "Francês (Français)"
+   },
+   "lang_fy": {
+      "message": "Frísio (Frysk)"
+   },
+   "lang_ga": {
+      "message": "Irlandês (Gaeilge)"
+   },
+   "lang_gd": {
+      "message": "Gaélico Escocês (Gàidhlig)"
+   },
+   "lang_gl": {
+      "message": "Galego (Galego)"
+   },
+   "lang_gu": {
+      "message": "Gujarati (ગુજરાતી)"
+   },
+   "lang_ha": {
+      "message": "Hauçá (Hausa)"
+   },
+   "lang_haw": {
+      "message": "Havaiano (ʻŌlelo Hawaiʻi)"
+   },
+   "lang_hi": {
+      "message": "Hindi (हिन्दी)"
+   },
+   "lang_hmn": {
+      "message": "Hmong (Hmoob)"
+   },
+   "lang_hr": {
+      "message": "Croata (Hrvatski)"
+   },
+   "lang_ht": {
+      "message": "Crioulo Haitiano (Kreyòl Ayisyen)"
+   },
+   "lang_hu": {
+      "message": "Húngaro (Magyar)"
+   },
+   "lang_hy": {
+      "message": "Armênio (Հայերեն)"
+   },
+   "lang_id": {
+      "message": "Indonésio (Bahasa Indonesia)"
+   },
+   "lang_ig": {
+      "message": "Igbo"
+   },
+   "lang_is": {
+      "message": "Islandês (Íslenska)"
+   },
+   "lang_it": {
+      "message": "Italiano (Italiano)"
+   },
+   "lang_iw": {
+      "message": "Hebraico (עברית)"
+   },
+   "lang_ja": {
+      "message": "Japonês (日本語)"
+   },
+   "lang_jw": {
+      "message": "Javanês (Basa Jawa)"
+   },
+   "lang_ka": {
+      "message": "Georgiano (ქართული)"
+   },
+   "lang_kk": {
+      "message": "Cazaque (Қазақша)"
+   },
+   "lang_km": {
+      "message": "Khmer (ខ្មែរ)"
+   },
+   "lang_kn": {
+      "message": "Canarês (ಕನ್ನಡ)"
+   },
+   "lang_ko": {
+      "message": "Coreano (한국어)"
+   },
+   "lang_ku": {
+      "message": "Curdo (Kurmanji) (Kurdî)"
+   },
+   "lang_ky": {
+      "message": "Quirguiz (Кыргызча)"
+   },
+   "lang_la": {
+      "message": "Latim (Latina)"
+   },
+   "lang_lb": {
+      "message": "Luxemburguês (Lëtzebuergesch)"
+   },
+   "lang_lo": {
+      "message": "Laosiano (ລາວ)"
+   },
+   "lang_lt": {
+      "message": "Lituano (Lietuvių)"
+   },
+   "lang_lv": {
+      "message": "Letão (Latviešu)"
+   },
+   "lang_ma": {
+      "message": "Punjabi (ਪੰਜਾਬੀ)"
+   },
+   "lang_mg": {
+      "message": "Malgaxe (Malagasy)"
+   },
+   "lang_mi": {
+      "message": "Maori (Māori)"
+   },
+   "lang_mk": {
+      "message": "Macedônio (Македонски)"
+   },
+   "lang_ml": {
+      "message": "Malaiala (മലയാളം)"
+   },
+   "lang_mn": {
+      "message": "Mongol (Монгол)"
+   },
+   "lang_mr": {
+      "message": "Marati (मराठी)"
+   },
+   "lang_ms": {
+      "message": "Malaio (Bahasa Melayu)"
+   },
+   "lang_mt": {
+      "message": "Maltês (Malti)"
+   },
+   "lang_my": {
+      "message": "Birmanês (မြန်မာစာ)"
+   },
+   "lang_ne": {
+      "message": "Nepali (नेपाली)"
+   },
+   "lang_nl": {
+      "message": "Holandês (Nederlands)"
+   },
+   "lang_no": {
+      "message": "Norueguês (Norsk)"
+   },
+   "lang_ny": {
+      "message": "Chichewa"
+   },
+   "lang_pl": {
+      "message": "Polonês (Polski)"
+   },
+   "lang_ps": {
+      "message": "Pachto (پښتو)"
+   },
+   "lang_pt": {
+      "message": "Português"
+   },
+   "lang_ro": {
+      "message": "Romeno (Română)"
+   },
+   "lang_ru": {
+      "message": "Russo (Русский)"
+   },
+   "lang_sd": {
+      "message": "Sindi (سنڌي)"
+   },
+   "lang_si": {
+      "message": "Cingalês (සිංහල)"
+   },
+   "lang_sk": {
+      "message": "Eslovaco (Slovenčina)"
+   },
+   "lang_sl": {
+      "message": "Esloveno (Slovenščina)"
+   },
+   "lang_sm": {
+      "message": "Samoano (Gagana Sāmoa)"
+   },
+   "lang_sn": {
+      "message": "Shona (ChiShona)"
+   },
+   "lang_so": {
+      "message": "Somali (Soomaali)"
+   },
+   "lang_sq": {
+      "message": "Albanês (Shqip)"
+   },
+   "lang_sr": {
+      "message": "Sérvio (Српски)"
+   },
+   "lang_st": {
+      "message": "Sesoto (Sesotho)"
+   },
+   "lang_su": {
+      "message": "Sundanês (Basa Sunda)"
+   },
+   "lang_sv": {
+      "message": "Sueco (Svenska)"
+   },
+   "lang_sw": {
+      "message": "Suaíli (Kiswahili)"
+   },
+   "lang_ta": {
+      "message": "Tâmil (தமிழ்)"
+   },
+   "lang_te": {
+      "message": "Telugu (తెలుగు)"
+   },
+   "lang_tg": {
+      "message": "Tadjique (Тоҷикӣ)"
+   },
+   "lang_th": {
+      "message": "Tailandês (ไทย)"
+   },
+   "lang_tl": {
+      "message": "Filipino"
+   },
+   "lang_tr": {
+      "message": "Turco (Türkçe)"
+   },
+   "lang_uk": {
+      "message": "Ucraniano (Українська)"
+   },
+   "lang_ur": {
+      "message": "Urdu (اردو)"
+   },
+   "lang_uz": {
+      "message": "Uzbeque (Oʻzbekcha)"
+   },
+   "lang_vi": {
+      "message": "Vietnamita (Tiếng Việt)"
+   },
+   "lang_xh": {
+      "message": "Xhosa (isiXhosa)"
+   },
+   "lang_yi": {
+      "message": "Iídiche (ייִדיש)"
+   },
+   "lang_yo": {
+      "message": "Iorubá (Yorùbá)"
+   },
+   "lang_zh_cn": {
+      "message": "Chinês simplificado (简体中文)"
+   },
+   "lang_zh_tw": {
+      "message": "Chinês tradicional (繁體中文)"
+   },
+   "lang_zu": {
+      "message": "Zulu (isiZulu)"
+   },
+   "languageBlacklist": {
+      "description": "Label for the source-language blacklist selector",
+      "message": "Lista Negra de Tradução"
+   },
+   "languageBlacklistDescription": {
+      "description": "Help text for the source-language blacklist selector",
+      "message": "As mensagens recebidas cujo idioma de origem detectado for um dos idiomas selecionados não serão traduzidas e serão exibidas como estão."
+   },
+   "logout": {
+      "message": "Sair"
+   },
+   "manageSubscriptions": {
+      "message": "Gerenciar assinaturas"
+   },
+   "messagesPerDay": {
+      "message": "30 mensagens/dia"
+   },
+   "messengerTranslatorDescription": {
+      "message": "Comunique-se facilmente em diferentes idiomas no Messenger"
+   },
+   "messengerTranslatorTitle": {
+      "message": "Messenger Translator Pro"
+   },
+   "modalUpgradeTitle": {
+      "message": "Fazer Upgrade"
+   },
+   "moneyBackGuarantee": {
+      "message": "GARANTIA DE REEMBOLSO EM 7 DIAS"
+   },
+   "moreSettings": {
+      "message": "Mais Configurações"
+   },
+   "moreTools": {
+      "message": "Mais Ferramentas"
+   },
+   "multipleTranslationEngines": {
+      "message": "Múltiplos Motores de Tradução"
+   },
+   "navGroupAdvanced": {
+      "description": "Options page sidebar nav item / card title for advanced settings (glossary, cache)",
+      "message": "Avançado"
+   },
+   "navGroupAppearance": {
+      "description": "Options page sidebar nav item / card title for translation engine and appearance settings",
+      "message": "Motor e Aparência"
+   },
+   "navGroupInputTranslation": {
+      "description": "Options page sidebar nav item / card title for settings about translating your own input before sending",
+      "message": "Tradução de Entrada"
+   },
+   "navGroupLanguages": {
+      "description": "Options page sidebar nav item / card title for the language-selection settings group",
+      "message": "Idiomas"
+   },
+   "navGroupMessageTranslation": {
+      "description": "Options page sidebar nav item / card title for settings about translating received messages",
+      "message": "Tradução de Mensagens"
+   },
+   "plan": {
+      "message": "Plano:"
+   },
+   "refresh": {
+      "message": "Atualizar"
+   },
+   "resetShortcuts": {
+      "message": "Redefinir"
+   },
+   "retryTranslation": {
+      "message": "Tentar novamente"
+   },
+   "sendImmediately": {
+      "message": "Enviar Imediatamente"
+   },
+   "sendImmediatelyDescription": {
+      "message": "Se ativado, pressionar o atalho irá traduzir sua mensagem e enviá-la instantaneamente."
+   },
+   "sendImmediatelyDisabledHint": {
+      "message": "Ative a Pré-visualização da Tradução para usar esta opção."
+   },
+   "settingsTitle": {
+      "message": "Configurações"
+   },
+   "share": {
+      "description": "Label / tooltip for the share button that opens the share menu",
+      "message": "Compartilhar"
+   },
+   "shareCopied": {
+      "description": "Confirmation shown on the share menu after the text and link are copied",
+      "message": "Copiado!"
+   },
+   "shareCopyLink": {
+      "description": "Share menu item that copies the promo text and the extension store link to the clipboard",
+      "message": "Copiar Texto e Link"
+   },
+   "shareMessage": {
+      "description": "Promotional sentence used as the share text when sharing the extension via the share button (copied to clipboard and pre-filled into social share dialogs). The store link is appended automatically.",
+      "message": "Confira este tradutor de comentários do YouTube — ele traduz comentários automaticamente em 100+ idiomas!"
+   },
+   "shareViaEmail": {
+      "description": "Share menu item that opens the user's email client to share the extension",
+      "message": "E-mail"
+   },
+   "shortcutsDescription": {
+      "message": "Traduza e substitua sua mensagem rapidamente ao digitar."
+   },
+   "shortcutsOneClickTranslation": {
+      "message": "Atalhos para Tradução e Envio com Um Clique"
+   },
+   "shortcutsTitle": {
+      "message": "Atalhos"
+   },
+   "signInWithGoogle": {
+      "message": "Entrar com Google"
+   },
+   "skypeTranslatorDescription": {
+      "message": "Traduza suas mensagens do Skype de forma integrada e em tempo real"
+   },
+   "skypeTranslatorTitle": {
+      "message": "Skype Translator Pro"
+   },
+   "slackTranslatorDescription": {
+      "message": "Traduza mensagens do Slack de forma integrada"
+   },
+   "slackTranslatorTitle": {
+      "message": "Slack Translator Pro"
+   },
+   "snapchatTranslatorDescription": {
+      "message": "Traduza automaticamente suas mensagens de grupo e chat no Snapchat"
+   },
+   "snapchatTranslatorTitle": {
+      "message": "Snapchat Translator Pro"
+   },
+   "supportOver100Languages": {
+      "message": "Suporte a mais de 100 idiomas"
+   },
+   "telegramTranslatorDescription": {
+      "message": "Traduza mensagens em chats e grupos do Telegram"
+   },
+   "telegramTranslatorTitle": {
+      "message": "Telegram Translator Pro"
+   },
+   "thankYouMessage": {
+      "message": "Avaliações de 5 estrelas nos mantêm em frente! Obrigado pelo seu apoio!"
+   },
+   "translatedTextColor": {
+      "message": "Cor do Texto Traduzido"
+   },
+   "translationEngine": {
+      "message": "Motor de Tradução"
+   },
+   "translationFailed": {
+      "message": "Falha na tradução"
+   },
+   "translationForum": {
+      "message": "Tradução de Fórum"
+   },
+   "translationForumDescription": {
+      "message": "Se ativado, o conteúdo do canal de fórum será traduzido."
+   },
+   "translationPreview": {
+      "message": "Pré-visualização da Tradução"
+   },
+   "translationPreviewDescription": {
+      "message": "Quando ativado, uma pré-visualização do conteúdo traduzido com base no que você está digitando será exibida em tempo real, melhorando significativamente sua tradução."
+   },
+   "translationSwitch": {
+      "message": "Ativar Tradução"
+   },
+   "translationSwitchDescription": {
+      "message": "Após desativar, o programa deixará de funcionar."
+   },
+   "twitchTranslatorDescription": {
+      "message": "Traduza chats em transmissões da Twitch"
+   },
+   "twitchTranslatorTitle": {
+      "message": "Twitch Translator Pro"
+   },
+   "unlimited": {
+      "message": "Ilimitado"
+   },
+   "upgrade": {
+      "message": "Fazer Upgrade"
+   },
+   "usageToday": {
+      "message": "Uso Hoje"
+   },
+   "useContactLanguage": {
+      "message": "Usar Idioma do Contato"
+   },
+   "useContactLanguageDescriptionPart1": {
+      "message": "Se ativado, o idioma de origem das mensagens recebidas será definido como o idioma do contato."
+   },
+   "useContactLanguageDescriptionPart2": {
+      "message": "Por padrão, as mensagens recebidas são detectadas automaticamente, e a configuração de idioma do contato aplica-se apenas à tradução do conteúdo digitado."
+   },
+   "userEmail": {
+      "message": "E-mail do Usuário:"
+   },
+   "userName": {
+      "message": "Nome do Usuário:"
+   },
+   "whatsappTranslatorDescription": {
+      "message": "Traduza mensagens em conversas do WhatsApp"
+   },
+   "whatsappTranslatorTitle": {
+      "message": "WhatsApp Translator Pro"
+   },
+   "yourLanguage": {
+      "message": "Seu Idioma"
+   },
+   "yourLanguageDescription": {
+      "message": "O idioma para o qual as mensagens recebidas serão traduzidas, geralmente o seu idioma nativo."
+   }
+}

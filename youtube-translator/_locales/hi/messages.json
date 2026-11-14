@@ -1,0 +1,642 @@
+{
+   "Buy": {
+      "message": "सदस्यता लें"
+   },
+   "Help": {
+      "message": "सहायता"
+   },
+   "accountTitle": {
+      "message": "खाता"
+   },
+   "addLanguage": {
+      "description": "Placeholder for the blacklist language picker (a compact dropdown used to add languages)",
+      "message": "भाषा जोड़ें"
+   },
+   "addRule": {
+      "message": "+ नियम जोड़ें"
+   },
+   "autoTranslateIncomingMessages": {
+      "message": "आने वाले संदेशों का स्वचालित अनुवाद"
+   },
+   "autoTranslateOutgoingMessages": {
+      "message": "जाने वाले संदेशों का स्वचालित अनुवाद"
+   },
+   "bilingualDisplay": {
+      "message": "द्विभाषी प्रदर्शन"
+   },
+   "bilingualDisplayDescription": {
+      "message": "एक बार खोलने पर, द्विभाषी सामग्री दिखाई जाएगी (अनुवाद मूल पाठ के साथ प्रदर्शित होगा)।"
+   },
+   "changeShortcuts": {
+      "message": "शॉर्टकट बदलें"
+   },
+   "clearCacheDescription": {
+      "message": "सभी अनुवाद सामग्री साफ़ कर दी जाएगी।"
+   },
+   "clearCacheTitle": {
+      "message": "कैश प्रबंधन"
+   },
+   "colorReset": {
+      "message": "रीसेट"
+   },
+   "colorResetDescription": {
+      "message": "(प्रभावी होने के लिए पृष्ठ पुनः लोड करना आवश्यक है।)"
+   },
+   "contactLanguage": {
+      "message": "संपर्क भाषा"
+   },
+   "contactLanguageDescription": {
+      "message": "वह भाषा जिसमें आपके द्वारा भेजे गए संदेश अनुवादित किए जाएंगे, आमतौर पर दूसरे पक्ष की भाषा।"
+   },
+   "contactSupport": {
+      "message": "यदि हमारी सेवाओं का उपयोग करते समय आपको कोई समस्या आती है, तो आप हमसे सीधे ईमेल द्वारा\n            संपर्क कर सकते हैं"
+   },
+   "customTranslatorColor": {
+      "message": "कस्टम अनुवादक रंग"
+   },
+   "discordTranslatorProDescription": {
+      "message": "Discord में सीधे संदेशों का अनुवाद करें"
+   },
+   "discordTranslatorProTitle": {
+      "message": "Discord Translator Pro"
+   },
+   "expiryDate": {
+      "message": "समाप्ति तिथि"
+   },
+   "extensionDescription": {
+      "description": "Extension description",
+      "message": "YouTube टिप्पणियों और लाइव चैट का स्वचालित अनुवाद करें, 100 से अधिक भाषाओं का समर्थन करता है।"
+   },
+   "extensionName": {
+      "description": "Extension name",
+      "message": "YouTube™ टिप्पणी अनुवादक प्रो - द्विभाषी और इमर्सिव स्वचालित अनुवाद"
+   },
+   "extensionNameInExt": {
+      "description": "Extension name",
+      "message": " YouTube™ Comment Translator Pro"
+   },
+   "firstLoginFreeTrial": {
+      "message": "आपके पहले साइन-इन पर, आपको तुरंत 1-दिन का निःशुल्क परीक्षण मिलेगा"
+   },
+   "followBrowser": {
+      "description": "Option meaning the extension UI should follow the browser language",
+      "message": "स्वचालित"
+   },
+   "getFreeTrial": {
+      "message": "2-दिन का निःशुल्क परीक्षण पाएं!"
+   },
+   "getFreeTrialWithReview": {
+      "message": "हमें 5-स्टार समीक्षा देकर, आप 2-दिन का निःशुल्क परीक्षण पा सकते हैं।"
+   },
+   "getMoreFreeTrials": {
+      "message": "और निःशुल्क परीक्षण पाएं"
+   },
+   "giveUsFiveStarReview": {
+      "message": "हमें 5-स्टार समीक्षा दें"
+   },
+   "glossaryDescription": {
+      "message": "एक बार सक्षम होने पर, फ़ंक्शन तालिका के आधार पर वाक्य में कीवर्ड खोजेगा और उन्हें बदल देगा।"
+   },
+   "glossaryTitle": {
+      "message": "शब्दावली"
+   },
+   "igTranslator": {
+      "message": "IG Translator"
+   },
+   "interfaceLanguage": {
+      "description": "Label for the UI language selector",
+      "message": "इंटरफ़ेस भाषा"
+   },
+   "interfaceLanguageDescription": {
+      "description": "Help text for the UI language selector",
+      "message": "इस एक्सटेंशन के स्वयं के इंटरफ़ेस (पॉपअप और सेटिंग्स) के लिए उपयोग की जाने वाली भाषा। अपने ब्राउज़र की भाषा से मिलाने के लिए \"स्वचालित\" चुनें।"
+   },
+   "lang_af": {
+      "message": "अफ्रीकांस (Afrikaans)"
+   },
+   "lang_am": {
+      "message": "अम्हारिक (አማርኛ)"
+   },
+   "lang_ar": {
+      "message": "अरबी (العربية)"
+   },
+   "lang_auto": {
+      "message": "स्वचालित"
+   },
+   "lang_az": {
+      "message": "अज़रबैजानी (Azərbaycanca)"
+   },
+   "lang_be": {
+      "message": "बेलारूसी (Беларуская)"
+   },
+   "lang_bg": {
+      "message": "बल्गेरियाई (Български)"
+   },
+   "lang_bn": {
+      "message": "बंगाली (বাংলা)"
+   },
+   "lang_bs": {
+      "message": "बोस्नियाई (Bosanski)"
+   },
+   "lang_ca": {
+      "message": "कातालान (Català)"
+   },
+   "lang_ceb": {
+      "message": "सेबुआनो (Binisaya)"
+   },
+   "lang_co": {
+      "message": "कोर्सिकन (Corsu)"
+   },
+   "lang_cs": {
+      "message": "चेक (Čeština)"
+   },
+   "lang_cy": {
+      "message": "वेल्श (Cymraeg)"
+   },
+   "lang_da": {
+      "message": "डेनिश (Dansk)"
+   },
+   "lang_de": {
+      "message": "जर्मन (Deutsch)"
+   },
+   "lang_el": {
+      "message": "ग्रीक (Ελληνικά)"
+   },
+   "lang_en": {
+      "message": "अंग्रेज़ी (English)"
+   },
+   "lang_eo": {
+      "message": "एस्पेरान्तो (Esperanto)"
+   },
+   "lang_es": {
+      "message": "स्पेनिश (Español)"
+   },
+   "lang_et": {
+      "message": "एस्टोनियाई (Eesti)"
+   },
+   "lang_eu": {
+      "message": "बास्क (Euskara)"
+   },
+   "lang_fa": {
+      "message": "फ़ारसी (فارسی)"
+   },
+   "lang_fi": {
+      "message": "फ़िनिश (Suomi)"
+   },
+   "lang_fr": {
+      "message": "फ़्रेंच (Français)"
+   },
+   "lang_fy": {
+      "message": "फ्रिसियाई (Frysk)"
+   },
+   "lang_ga": {
+      "message": "आयरिश (Gaeilge)"
+   },
+   "lang_gd": {
+      "message": "स्कॉट्स गेलिक (Gàidhlig)"
+   },
+   "lang_gl": {
+      "message": "गैलिशियाई (Galego)"
+   },
+   "lang_gu": {
+      "message": "गुजराती (ગુજરાતી)"
+   },
+   "lang_ha": {
+      "message": "हौसा (Hausa)"
+   },
+   "lang_haw": {
+      "message": "हवाईयन (ʻŌlelo Hawaiʻi)"
+   },
+   "lang_hi": {
+      "message": "हिन्दी"
+   },
+   "lang_hmn": {
+      "message": "ह्मोंग (Hmoob)"
+   },
+   "lang_hr": {
+      "message": "क्रोएशियाई (Hrvatski)"
+   },
+   "lang_ht": {
+      "message": "हाईटियन क्रियोल (Kreyòl Ayisyen)"
+   },
+   "lang_hu": {
+      "message": "हंगेरियाई (Magyar)"
+   },
+   "lang_hy": {
+      "message": "आर्मेनियाई (Հայերեն)"
+   },
+   "lang_id": {
+      "message": "इंडोनेशियाई (Bahasa Indonesia)"
+   },
+   "lang_ig": {
+      "message": "इग्बो (Igbo)"
+   },
+   "lang_is": {
+      "message": "आइसलैंडिक (Íslenska)"
+   },
+   "lang_it": {
+      "message": "इतालवी (Italiano)"
+   },
+   "lang_iw": {
+      "message": "हिब्रू (עברית)"
+   },
+   "lang_ja": {
+      "message": "जापानी (日本語)"
+   },
+   "lang_jw": {
+      "message": "जावानी (Basa Jawa)"
+   },
+   "lang_ka": {
+      "message": "जॉर्जियाई (ქართული)"
+   },
+   "lang_kk": {
+      "message": "कज़ाख (Қазақша)"
+   },
+   "lang_km": {
+      "message": "खमेर (ខ្មែរ)"
+   },
+   "lang_kn": {
+      "message": "कन्नड़ (ಕನ್ನಡ)"
+   },
+   "lang_ko": {
+      "message": "कोरियाई (한국어)"
+   },
+   "lang_ku": {
+      "message": "कुर्दिश (कुर्मांजी) (Kurdî)"
+   },
+   "lang_ky": {
+      "message": "किर्गिज़ (Кыргызча)"
+   },
+   "lang_la": {
+      "message": "लैटिन (Latina)"
+   },
+   "lang_lb": {
+      "message": "लक्ज़मबर्गिश (Lëtzebuergesch)"
+   },
+   "lang_lo": {
+      "message": "लाओ (ລາວ)"
+   },
+   "lang_lt": {
+      "message": "लिथुआनियाई (Lietuvių)"
+   },
+   "lang_lv": {
+      "message": "लात्वियाई (Latviešu)"
+   },
+   "lang_ma": {
+      "message": "पंजाबी (ਪੰਜਾਬੀ)"
+   },
+   "lang_mg": {
+      "message": "मालागासी (Malagasy)"
+   },
+   "lang_mi": {
+      "message": "माओरी (Māori)"
+   },
+   "lang_mk": {
+      "message": "मेसिडोनियाई (Македонски)"
+   },
+   "lang_ml": {
+      "message": "मलयालम (മലയാളം)"
+   },
+   "lang_mn": {
+      "message": "मंगोलियाई (Монгол)"
+   },
+   "lang_mr": {
+      "message": "मराठी (मराठी)"
+   },
+   "lang_ms": {
+      "message": "मलय (Bahasa Melayu)"
+   },
+   "lang_mt": {
+      "message": "माल्टीज़ (Malti)"
+   },
+   "lang_my": {
+      "message": "म्यांमार (बर्मी) (မြန်မာစာ)"
+   },
+   "lang_ne": {
+      "message": "नेपाली (नेपाली)"
+   },
+   "lang_nl": {
+      "message": "डच (Nederlands)"
+   },
+   "lang_no": {
+      "message": "नॉर्वेजियाई (Norsk)"
+   },
+   "lang_ny": {
+      "message": "चिचेवा (Chichewa)"
+   },
+   "lang_pl": {
+      "message": "पोलिश (Polski)"
+   },
+   "lang_ps": {
+      "message": "पश्तो (پښتو)"
+   },
+   "lang_pt": {
+      "message": "पुर्तगाली (Português)"
+   },
+   "lang_ro": {
+      "message": "रोमानियाई (Română)"
+   },
+   "lang_ru": {
+      "message": "रूसी (Русский)"
+   },
+   "lang_sd": {
+      "message": "सिंधी (سنڌي)"
+   },
+   "lang_si": {
+      "message": "सिंहल (සිංහල)"
+   },
+   "lang_sk": {
+      "message": "स्लोवाक (Slovenčina)"
+   },
+   "lang_sl": {
+      "message": "स्लोवेनियाई (Slovenščina)"
+   },
+   "lang_sm": {
+      "message": "सामोआई (Gagana Sāmoa)"
+   },
+   "lang_sn": {
+      "message": "शोना (ChiShona)"
+   },
+   "lang_so": {
+      "message": "सोमाली (Soomaali)"
+   },
+   "lang_sq": {
+      "message": "अल्बानियाई (Shqip)"
+   },
+   "lang_sr": {
+      "message": "सर्बियाई (Српски)"
+   },
+   "lang_st": {
+      "message": "सेसोथो (Sesotho)"
+   },
+   "lang_su": {
+      "message": "सुंडानी (Basa Sunda)"
+   },
+   "lang_sv": {
+      "message": "स्वीडिश (Svenska)"
+   },
+   "lang_sw": {
+      "message": "स्वाहिली (Kiswahili)"
+   },
+   "lang_ta": {
+      "message": "तमिल (தமிழ்)"
+   },
+   "lang_te": {
+      "message": "तेलुगु (తెలుగు)"
+   },
+   "lang_tg": {
+      "message": "ताजिक (Тоҷикӣ)"
+   },
+   "lang_th": {
+      "message": "थाई (ไทย)"
+   },
+   "lang_tl": {
+      "message": "फ़िलिपिनो (Filipino)"
+   },
+   "lang_tr": {
+      "message": "तुर्की (Türkçe)"
+   },
+   "lang_uk": {
+      "message": "यूक्रेनियाई (Українська)"
+   },
+   "lang_ur": {
+      "message": "उर्दू (اردو)"
+   },
+   "lang_uz": {
+      "message": "उज़्बेक (Oʻzbekcha)"
+   },
+   "lang_vi": {
+      "message": "वियतनामी (Tiếng Việt)"
+   },
+   "lang_xh": {
+      "message": "खोसा (isiXhosa)"
+   },
+   "lang_yi": {
+      "message": "यिद्दिश (ייִדיש)"
+   },
+   "lang_yo": {
+      "message": "योरूबा (Yorùbá)"
+   },
+   "lang_zh_cn": {
+      "message": "चीनी (सरलीकृत) (简体中文)"
+   },
+   "lang_zh_tw": {
+      "message": "चीनी (पारंपरिक) (繁體中文)"
+   },
+   "lang_zu": {
+      "message": "ज़ुलू (isiZulu)"
+   },
+   "languageBlacklist": {
+      "description": "Label for the source-language blacklist selector",
+      "message": "अनुवाद ब्लैकलिस्ट"
+   },
+   "languageBlacklistDescription": {
+      "description": "Help text for the source-language blacklist selector",
+      "message": "आने वाले संदेश जिनकी पहचानी गई स्रोत भाषा चुनी हुई भाषाओं में से एक है, उनका अनुवाद नहीं किया जाएगा और वे यथावत दिखाए जाएंगे।"
+   },
+   "logout": {
+      "message": "लॉग आउट"
+   },
+   "manageSubscriptions": {
+      "message": "सदस्यता प्रबंधित करें"
+   },
+   "messagesPerDay": {
+      "message": "30 संदेश/दिन"
+   },
+   "messengerTranslatorDescription": {
+      "message": "Messenger में विभिन्न भाषाओं में आसानी से संवाद करें"
+   },
+   "messengerTranslatorTitle": {
+      "message": "Messenger Translator Pro"
+   },
+   "modalUpgradeTitle": {
+      "message": "अपग्रेड करें"
+   },
+   "moneyBackGuarantee": {
+      "message": "7 दिन की मनी बैक गारंटी"
+   },
+   "moreSettings": {
+      "message": "अधिक सेटिंग्स"
+   },
+   "moreTools": {
+      "message": "और टूल"
+   },
+   "multipleTranslationEngines": {
+      "message": "एकाधिक अनुवाद इंजन"
+   },
+   "navGroupAdvanced": {
+      "description": "Options page sidebar nav item / card title for advanced settings (glossary, cache)",
+      "message": "उन्नत"
+   },
+   "navGroupAppearance": {
+      "description": "Options page sidebar nav item / card title for translation engine and appearance settings",
+      "message": "इंजन और रूप-रंग"
+   },
+   "navGroupInputTranslation": {
+      "description": "Options page sidebar nav item / card title for settings about translating your own input before sending",
+      "message": "इनपुट अनुवाद"
+   },
+   "navGroupLanguages": {
+      "description": "Options page sidebar nav item / card title for the language-selection settings group",
+      "message": "भाषाएँ"
+   },
+   "navGroupMessageTranslation": {
+      "description": "Options page sidebar nav item / card title for settings about translating received messages",
+      "message": "मैसेज अनुवाद"
+   },
+   "plan": {
+      "message": "योजना:"
+   },
+   "refresh": {
+      "message": "रीफ्रेश"
+   },
+   "resetShortcuts": {
+      "message": "रीसेट"
+   },
+   "retryTranslation": {
+      "message": "पुनः प्रयास करें"
+   },
+   "sendImmediately": {
+      "message": "तुरंत भेजें"
+   },
+   "sendImmediatelyDescription": {
+      "message": "यदि सक्षम हो, तो शॉर्टकट दबाने पर आपका संदेश अनुवादित होकर तुरंत भेज दिया जाएगा।"
+   },
+   "sendImmediatelyDisabledHint": {
+      "message": "इस विकल्प का उपयोग करने के लिए अनुवाद पूर्वावलोकन चालू करें।"
+   },
+   "settingsTitle": {
+      "message": "सेटिंग्स"
+   },
+   "share": {
+      "description": "Label / tooltip for the share button that opens the share menu",
+      "message": "शेयर करें"
+   },
+   "shareCopied": {
+      "description": "Confirmation shown on the share menu after the text and link are copied",
+      "message": "कॉपी हो गया!"
+   },
+   "shareCopyLink": {
+      "description": "Share menu item that copies the promo text and the extension store link to the clipboard",
+      "message": "टेक्स्ट और लिंक कॉपी करें"
+   },
+   "shareMessage": {
+      "description": "Promotional sentence used as the share text when sharing the extension via the share button (copied to clipboard and pre-filled into social share dialogs). The store link is appended automatically.",
+      "message": "इस YouTube कमेंट अनुवादक को देखें — यह 100+ भाषाओं में टिप्पणियों का स्वचालित अनुवाद करता है!"
+   },
+   "shareViaEmail": {
+      "description": "Share menu item that opens the user's email client to share the extension",
+      "message": "ईमेल"
+   },
+   "shortcutsDescription": {
+      "message": "इनपुट करते समय अपने संदेश को त्वरित रूप से अनुवादित और बदलें।"
+   },
+   "shortcutsOneClickTranslation": {
+      "message": "एक-क्लिक अनुवाद और भेजने के लिए शॉर्टकट"
+   },
+   "shortcutsTitle": {
+      "message": "शॉर्टकट"
+   },
+   "signInWithGoogle": {
+      "message": "Google से साइन इन करें"
+   },
+   "skypeTranslatorDescription": {
+      "message": "अपने Skype संदेशों का रीयल-टाइम में निर्बाध अनुवाद करें"
+   },
+   "skypeTranslatorTitle": {
+      "message": "Skype Translator Pro"
+   },
+   "slackTranslatorDescription": {
+      "message": "Slack संदेशों का निर्बाध अनुवाद करें"
+   },
+   "slackTranslatorTitle": {
+      "message": "Slack Translator Pro"
+   },
+   "snapchatTranslatorDescription": {
+      "message": "Snapchat में अपने ग्रुप और चैट संदेशों का स्वचालित अनुवाद करें"
+   },
+   "snapchatTranslatorTitle": {
+      "message": "Snapchat Translator Pro"
+   },
+   "supportOver100Languages": {
+      "message": "100+ भाषाओं का समर्थन"
+   },
+   "telegramTranslatorDescription": {
+      "message": "Telegram चैट और ग्रुप में संदेशों का अनुवाद करें"
+   },
+   "telegramTranslatorTitle": {
+      "message": "Telegram Translator Pro"
+   },
+   "thankYouMessage": {
+      "message": "5-स्टार समीक्षाएं हमें आगे बढ़ाती हैं! आपके समर्थन के लिए धन्यवाद!"
+   },
+   "translatedTextColor": {
+      "message": "अनुवादित टेक्स्ट का रंग"
+   },
+   "translationEngine": {
+      "message": "अनुवाद इंजन"
+   },
+   "translationFailed": {
+      "message": "अनुवाद विफल रहा"
+   },
+   "translationForum": {
+      "message": "फ़ोरम अनुवाद"
+   },
+   "translationForumDescription": {
+      "message": "यदि सक्षम हो, तो फ़ोरम चैनल की सामग्री का अनुवाद किया जाएगा।"
+   },
+   "translationPreview": {
+      "message": "अनुवाद पूर्वावलोकन"
+   },
+   "translationPreviewDescription": {
+      "message": "सक्षम होने पर, आपकी इनपुट सामग्री के आधार पर अनुवादित सामग्री का पूर्वावलोकन रीयल-टाइम में प्रदर्शित होगा, जिससे आपका अनुवाद काफी बेहतर होगा।"
+   },
+   "translationSwitch": {
+      "message": "अनुवाद स्विच"
+   },
+   "translationSwitchDescription": {
+      "message": "बंद करने के बाद, प्रोग्राम काम करना बंद कर देगा।"
+   },
+   "twitchTranslatorDescription": {
+      "message": "Twitch स्ट्रीम में चैट का अनुवाद करें"
+   },
+   "twitchTranslatorTitle": {
+      "message": "Twitch Translator Pro"
+   },
+   "unlimited": {
+      "message": "असीमित"
+   },
+   "upgrade": {
+      "message": "अपग्रेड करें"
+   },
+   "usageToday": {
+      "message": "आज का उपयोग"
+   },
+   "useContactLanguage": {
+      "message": "संपर्क भाषा उपयोग करें"
+   },
+   "useContactLanguageDescriptionPart1": {
+      "message": "यदि सक्षम हो, तो प्राप्त संदेशों की स्रोत भाषा को संपर्क भाषा पर सेट किया जाएगा।"
+   },
+   "useContactLanguageDescriptionPart2": {
+      "message": "डिफ़ॉल्ट रूप से, आपको प्राप्त संदेश स्वचालित रूप से पहचाने जाएंगे, और संपर्क भाषा सेटिंग केवल इनपुट सामग्री के अनुवाद पर लागू होती है।"
+   },
+   "userEmail": {
+      "message": "उपयोगकर्ता ईमेल:"
+   },
+   "userName": {
+      "message": "उपयोगकर्ता नाम:"
+   },
+   "whatsappTranslatorDescription": {
+      "message": "WhatsApp वार्तालापों में संदेशों का अनुवाद करें"
+   },
+   "whatsappTranslatorTitle": {
+      "message": "WhatsApp Translator Pro"
+   },
+   "yourLanguage": {
+      "message": "आपकी भाषा"
+   },
+   "yourLanguageDescription": {
+      "message": "वह भाषा जिसमें आपको प्राप्त संदेश अनुवादित किए जाएंगे, आमतौर पर आपकी मातृभाषा।"
+   }
+}
