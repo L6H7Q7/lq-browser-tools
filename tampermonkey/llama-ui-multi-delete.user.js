@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         llama-ui 对话多选删除
 // @namespace    https://github.com/L6H7Q7
-// @version      1.2.0
+// @version      1.3.0
 // @description  给 llama.cpp 网页（127.0.0.1:8080）的侧边栏增加「多选」菜单，可批量删除对话
 // @match        http://127.0.0.1:8080/*
 // @match        http://localhost:8080/*
@@ -20,6 +20,7 @@
   let row;
   let toggleBtn;
   let deleteBtn;
+  let selectAllInput;
   let selecting = false;
   let busy = false;
   const selected = new Set();
@@ -30,6 +31,18 @@
       request.onsuccess = () => resolve(request.result);
       request.onerror = () => reject(request.error);
     });
+  }
+
+  async function getAllConversationIds() {
+    const db = await openDb();
+    const keys = await new Promise((resolve, reject) => {
+      const tx = db.transaction('conversations', 'readonly');
+      const request = tx.objectStore('conversations').getAllKeys();
+      request.onsuccess = () => resolve(request.result);
+      request.onerror = () => reject(request.error);
+    });
+    db.close();
+    return keys;
   }
 
   function rows() {
@@ -87,6 +100,16 @@
       deleteBtn.style.display = selecting ? '' : 'none';
       deleteBtn.textContent = '删除 (' + selected.size + ')';
       deleteBtn.disabled = selected.size === 0 || busy;
+    }
+    if (selectAllInput) {
+      const box = selectAllInput.closest('[data-lq-select-all]');
+      if (box) {
+        box.style.display = selecting ? 'flex' : 'none';
+        const domRows = rows();
+        const allVisibleSelected = domRows.length > 0 && domRows.every((item) => selected.has(rowId(item)));
+        selectAllInput.checked = selecting && selected.size > 0 && allVisibleSelected;
+        selectAllInput.indeterminate = selecting && selected.size > 0 && !allVisibleSelected;
+      }
     }
   }
 
@@ -152,6 +175,68 @@
 
     row.append(toggleBtn, deleteBtn);
     container.insertBefore(row, wrap.nextSibling);
+  }
+
+  function findRecentLabel() {
+    const existing = document.querySelector('[data-lq-select-all]');
+    if (existing && existing.parentElement) {
+      return existing.parentElement;
+    }
+
+    return Array.from(document.querySelectorAll('div')).find(
+      (element) =>
+        element.textContent.trim().startsWith('Recent conversations') &&
+        !element.querySelector(ROW_SELECTOR) &&
+        element.children.length <= 1
+    );
+  }
+
+  function injectSelectAll() {
+    const label = findRecentLabel();
+    if (!label) {
+      selectAllInput = null;
+      return;
+    }
+
+    const existing = label.querySelector('[data-lq-select-all]');
+    if (existing) {
+      const input = existing.querySelector('input');
+      if (input) {
+        selectAllInput = input;
+      }
+      return;
+    }
+
+    const box = document.createElement('label');
+    box.setAttribute('data-lq-select-all', '1');
+    box.style.cssText =
+      'display:none;margin-left:auto;align-items:center;gap:4px;cursor:pointer;font-size:11px;color:#6750A4;';
+    const input = document.createElement('input');
+    input.type = 'checkbox';
+    input.style.cssText = 'width:13px;height:13px;accent-color:#6750A4;cursor:pointer;';
+    const text = document.createElement('span');
+    text.textContent = '全选';
+    box.append(input, text);
+
+    input.addEventListener('change', async (event) => {
+      if (event.target.checked) {
+        try {
+          const ids = await getAllConversationIds();
+          selected.clear();
+          for (const id of ids) {
+            selected.add(String(id));
+          }
+        } catch (error) {
+          selected.clear();
+        }
+      } else {
+        selected.clear();
+      }
+      paint();
+    });
+
+    label.appendChild(box);
+    selectAllInput = input;
   }
 
   async function deleteSelected() {
@@ -252,6 +337,7 @@
     }
     ensureStyle();
     injectRow();
+    injectSelectAll();
     paint();
   }
 
