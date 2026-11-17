@@ -21,6 +21,7 @@
 | 📥 [QQ 邮箱自动登录](https://raw.githubusercontent.com/L6H7Q7/lq-browser-tools/main/tampermonkey/qqmail-oauth-auto.user.js) | QQ 邮箱网页版自动点击「允许」和头像登录，省去手动扫码 |
 | 📥 [安卓网页强制横屏](https://raw.githubusercontent.com/L6H7Q7/lq-browser-tools/main/tampermonkey/android-force-landscape.user.js) | 让安卓手机上不支持横屏的网页强制横屏全屏播放 |
 | 📥 [llama-ui 对话多选删除](https://raw.githubusercontent.com/L6H7Q7/lq-browser-tools/main/tampermonkey/llama-ui-multi-delete.user.js) | 给本地 llama.cpp 网页（127.0.0.1:8080）的对话列表加多选批量删除 |
+| 📥 [llama-ui 思考开关](https://raw.githubusercontent.com/L6H7Q7/lq-browser-tools/main/tampermonkey/llama-ui-thinking-toggle.user.js) | 在 llama.cpp 网页的模型选择器旁加「思考：开 / 关」开关，一键切换推理思考模式 |
 
 ---
 
@@ -75,9 +76,13 @@ QQ 邮箱网页版自动登录，自动点击「允许」和头像。
 **llama-ui-multi-delete.user.js**
 给本地 llama.cpp 网页（`127.0.0.1:8080` / `localhost:8080`）的左侧对话列表加「多选删除」：点左下角按钮进入多选模式，点对话勾选，再点「删除选中」批量删掉（删除前有确认框）。直接读写浏览器的 IndexedDB（`LlamaUi`），删除后自动刷新页面。
 
+**llama-ui-thinking-toggle.user.js**
+给本地 llama.cpp 网页（`127.0.0.1:8080` / `localhost:8080`）的模型选择器左侧加一个「思考：开 / 关」开关，点一下切换，状态存在 localStorage 里，刷新不丢。原理是拦截页面发往 `/v1/chat/completions` 的请求：关闭思考时注入 `reasoning_effort: none` 与 `enable_thinking: false`，开启时移除这些参数。默认关闭——实测 Gemma 4 12B 这类模型开启思考后，回复慢 5~10 倍、token 消耗翻倍，而对视觉判断的准确率没有提升。
+
 ---
 
 ## 更新记录
 
 - 2026-11-14：创建本仓库，合并原 `youtube-comment-translate-fixed` 与 `Ai.Codex-Tampermonkey` 两个仓库
 - 2026-11-17：新增 llama-ui 对话多选删除脚本
+- 2026-11-17：新增 llama-ui 思考开关脚本
