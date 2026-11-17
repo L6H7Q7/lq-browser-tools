@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         llama-ui 对话多选删除
 // @namespace    https://github.com/L6H7Q7
-// @version      1.0.0
-// @description  给 llama.cpp 网页（127.0.0.1:8080）的对话列表增加多选批量删除
+// @version      1.2.0
+// @description  给 llama.cpp 网页（127.0.0.1:8080）的侧边栏增加「多选」菜单，可批量删除对话
 // @match        http://127.0.0.1:8080/*
 // @match        http://localhost:8080/*
 // @run-at       document-idle
@@ -13,16 +13,15 @@
   'use strict';
 
   const ROW_SELECTOR = '[data-conversation-row]';
+  const ROW_MARKER = 'data-lq-multi-row';
   const DB_NAME = 'LlamaUi';
   const TAB_KEY = 'LlamaUi.conversationTabs';
 
-  let bar;
+  let row;
   let toggleBtn;
   let deleteBtn;
-  let cancelBtn;
   let selecting = false;
   let busy = false;
-  let paintScheduled = false;
   const selected = new Set();
 
   function openDb() {
@@ -37,46 +36,58 @@
     return Array.from(document.querySelectorAll(ROW_SELECTOR));
   }
 
-  function rowId(row) {
-    return row.getAttribute('data-conversation-row');
+  function rowId(rowElement) {
+    return rowElement.getAttribute('data-conversation-row');
+  }
+
+  function findSettingsButton() {
+    return Array.from(document.querySelectorAll('button')).find((button) =>
+      button.textContent.trim().startsWith('Settings')
+    );
+  }
+
+  function setButtonText(button, text) {
+    const walker = document.createTreeWalker(button, NodeFilter.SHOW_TEXT);
+    let node;
+    while ((node = walker.nextNode())) {
+      if (node.textContent.trim().length > 0) {
+        node.textContent = text;
+        return;
+      }
+    }
+    button.appendChild(document.createTextNode(text));
+  }
+
+  function ensureStyle() {
+    if (document.getElementById('lq-multi-style')) {
+      return;
+    }
+
+    const style = document.createElement('style');
+    style.id = 'lq-multi-style';
+    // 页面会反复重写对话行的 style/class，所以选中态用自定义属性 + CSS 规则
+    style.textContent =
+      "[data-conversation-row][data-lq-selected='1']{outline:2px solid #6750A4!important;outline-offset:-2px!important;background:rgba(103,80,164,0.16)!important;}";
+    document.head.appendChild(style);
   }
 
   function paint() {
-    for (const row of rows()) {
-      if (selecting && selected.has(rowId(row))) {
-        row.style.outline = '2px solid #6750A4';
-        row.style.outlineOffset = '-2px';
-        row.style.background = 'rgba(103, 80, 164, 0.16)';
+    for (const rowElement of rows()) {
+      if (selecting && selected.has(rowId(rowElement))) {
+        rowElement.setAttribute('data-lq-selected', '1');
       } else {
-        row.style.outline = '';
-        row.style.outlineOffset = '';
-        row.style.background = '';
+        rowElement.removeAttribute('data-lq-selected');
       }
     }
 
     if (toggleBtn) {
-      toggleBtn.textContent = selecting ? '多选中（点对话勾选）' : '多选删除';
+      setButtonText(toggleBtn, selecting ? '退出多选' : '多选');
     }
     if (deleteBtn) {
       deleteBtn.style.display = selecting ? '' : 'none';
-      deleteBtn.textContent = '删除选中 (' + selected.size + ')';
+      deleteBtn.textContent = '删除 (' + selected.size + ')';
       deleteBtn.disabled = selected.size === 0 || busy;
     }
-    if (cancelBtn) {
-      cancelBtn.style.display = selecting ? '' : 'none';
-    }
-  }
-
-  function schedulePaint() {
-    if (paintScheduled) {
-      return;
-    }
-
-    paintScheduled = true;
-    setTimeout(() => {
-      paintScheduled = false;
-      paint();
-    }, 120);
   }
 
   function enterSelecting() {
@@ -89,6 +100,58 @@
     selecting = false;
     selected.clear();
     paint();
+  }
+
+  function injectRow() {
+    if (document.querySelector('[' + ROW_MARKER + ']')) {
+      return;
+    }
+
+    const settings = findSettingsButton();
+    if (!settings || !settings.parentElement || !settings.parentElement.parentElement) {
+      return;
+    }
+
+    const wrap = settings.parentElement;
+    const container = wrap.parentElement;
+
+    row = document.createElement('div');
+    row.setAttribute(ROW_MARKER, '1');
+    row.style.cssText = 'display:flex;align-items:center;gap:6px;width:100%;min-width:0;';
+
+    toggleBtn = settings.cloneNode(true);
+    toggleBtn.style.flex = '1 1 auto';
+    toggleBtn.style.minWidth = '0';
+    toggleBtn.style.width = 'auto';
+    const svg = toggleBtn.querySelector('svg');
+    if (svg) {
+      svg.outerHTML =
+        '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="m9 12 2 2 4-4"/></svg>';
+    }
+    setButtonText(toggleBtn, '多选');
+    toggleBtn.addEventListener('click', (event) => {
+      event.preventDefault();
+      event.stopPropagation();
+      if (selecting) {
+        exitSelecting();
+      } else {
+        enterSelecting();
+      }
+    });
+
+    deleteBtn = document.createElement('button');
+    deleteBtn.type = 'button';
+    deleteBtn.textContent = '删除 (0)';
+    deleteBtn.style.cssText =
+      'padding:4px 8px;border-radius:6px;border:1px solid #d66;background:#fff;color:#b3261e;font:12px/1.4 "Microsoft YaHei",sans-serif;cursor:pointer;display:none;white-space:nowrap;flex-shrink:0;margin-left:auto;';
+    deleteBtn.addEventListener('click', (event) => {
+      event.preventDefault();
+      event.stopPropagation();
+      deleteSelected();
+    });
+
+    row.append(toggleBtn, deleteBtn);
+    container.insertBefore(row, wrap.nextSibling);
   }
 
   async function deleteSelected() {
@@ -139,7 +202,7 @@
         const kept = Array.isArray(tabs) ? tabs.filter((tab) => ids.indexOf(tab) === -1) : tabs;
         localStorage.setItem(TAB_KEY, JSON.stringify(kept));
       } catch (error) {
-        // 标签列表格式异常时忽略，不影响对话删除
+        // 标签列表格式异常时忽略
       }
 
       location.reload();
@@ -150,67 +213,6 @@
     }
   }
 
-  function buttonStyle(background, color) {
-    return [
-      'padding:6px 10px',
-      'border-radius:8px',
-      'border:1px solid rgba(0,0,0,0.15)',
-      'background:' + background,
-      'color:' + color,
-      'cursor:pointer',
-      'box-shadow:0 2px 6px rgba(0,0,0,0.18)',
-      'font:13px/1.4 "Microsoft YaHei", sans-serif',
-    ].join(';');
-  }
-
-  function ensureBar() {
-    if (bar || !document.body) {
-      return;
-    }
-
-    bar = document.createElement('div');
-    bar.style.cssText = 'position:fixed;left:12px;bottom:12px;z-index:2147483000;display:flex;gap:8px;align-items:center;';
-
-    toggleBtn = document.createElement('button');
-    toggleBtn.type = 'button';
-    toggleBtn.textContent = '多选删除';
-    toggleBtn.style.cssText = buttonStyle('#6750A4', '#ffffff');
-    toggleBtn.addEventListener('click', (event) => {
-      event.preventDefault();
-      event.stopPropagation();
-      if (selecting) {
-        exitSelecting();
-      } else {
-        enterSelecting();
-      }
-    });
-
-    deleteBtn = document.createElement('button');
-    deleteBtn.type = 'button';
-    deleteBtn.textContent = '删除选中 (0)';
-    deleteBtn.style.cssText = buttonStyle('#B3261E', '#ffffff');
-    deleteBtn.style.display = 'none';
-    deleteBtn.addEventListener('click', (event) => {
-      event.preventDefault();
-      event.stopPropagation();
-      deleteSelected();
-    });
-
-    cancelBtn = document.createElement('button');
-    cancelBtn.type = 'button';
-    cancelBtn.textContent = '取消';
-    cancelBtn.style.cssText = buttonStyle('#ffffff', '#1D1B20');
-    cancelBtn.style.display = 'none';
-    cancelBtn.addEventListener('click', (event) => {
-      event.preventDefault();
-      event.stopPropagation();
-      exitSelecting();
-    });
-
-    bar.append(toggleBtn, deleteBtn, cancelBtn);
-    document.body.appendChild(bar);
-  }
-
   document.addEventListener(
     'click',
     (event) => {
@@ -218,8 +220,8 @@
         return;
       }
 
-      const row = event.target.closest(ROW_SELECTOR);
-      if (!row) {
+      const rowElement = event.target.closest(ROW_SELECTOR);
+      if (!rowElement) {
         return;
       }
 
@@ -227,7 +229,7 @@
       event.stopPropagation();
       event.stopImmediatePropagation();
 
-      const id = rowId(row);
+      const id = rowId(rowElement);
       if (!id) {
         return;
       }
@@ -242,16 +244,21 @@
     true
   );
 
-  function start() {
-    ensureBar();
-    const observer = new MutationObserver(schedulePaint);
-    observer.observe(document.body, { childList: true, subtree: true });
+  function tick() {
+    if (row && !document.body.contains(row)) {
+      row = null;
+      toggleBtn = null;
+      deleteBtn = null;
+    }
+    ensureStyle();
+    injectRow();
     paint();
   }
 
+  setInterval(tick, 400);
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', start);
+    document.addEventListener('DOMContentLoaded', tick);
   } else {
-    start();
+    tick();
   }
 })();
