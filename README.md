@@ -20,6 +20,7 @@
 |---|---|
 | 📥 [QQ 邮箱自动登录](https://raw.githubusercontent.com/L6H7Q7/lq-browser-tools/main/tampermonkey/qqmail-oauth-auto.user.js) | QQ 邮箱网页版自动点击「允许」和头像登录，省去手动扫码 |
 | 📥 [安卓网页强制横屏](https://raw.githubusercontent.com/L6H7Q7/lq-browser-tools/main/tampermonkey/android-force-landscape.user.js) | 让安卓手机上不支持横屏的网页强制横屏全屏播放 |
+| 📥 [llama-ui 对话多选删除](https://raw.githubusercontent.com/L6H7Q7/lq-browser-tools/main/tampermonkey/llama-ui-multi-delete.user.js) | 给本地 llama.cpp 网页（127.0.0.1:8080）的对话列表加多选批量删除 |
 
 ---
 
@@ -71,8 +72,12 @@ QQ 邮箱网页版自动登录，自动点击「允许」和头像。
 **android-force-landscape.user.js**
 让某些在安卓手机上无法横屏的网页强制横屏播放，已实测可用。
 
+**llama-ui-multi-delete.user.js**
+给本地 llama.cpp 网页（`127.0.0.1:8080` / `localhost:8080`）的左侧对话列表加「多选删除」：点左下角按钮进入多选模式，点对话勾选，再点「删除选中」批量删掉（删除前有确认框）。直接读写浏览器的 IndexedDB（`LlamaUi`），删除后自动刷新页面。
+
 ---
 
 ## 更新记录
 
 - 2026-11-14：创建本仓库，合并原 `youtube-comment-translate-fixed` 与 `Ai.Codex-Tampermonkey` 两个仓库
+- 2026-11-17：新增 llama-ui 对话多选删除脚本
